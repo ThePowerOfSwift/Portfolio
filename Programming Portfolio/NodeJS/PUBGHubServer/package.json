@@ -1,0 +1,28 @@
+{
+  "name": "pubghubserver",
+  "version": "1.0.0",
+  "description": "PUBG Hub Mobile Application Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kelrobertson/PUBGHubBackendServer.git"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "cheerio": "latest",
+    "cloudscraper": "^1.4.1",
+    "express": "latest",
+    "phantom": "^4.0.5",
+    "request": "latest",
+    "xpath": "latest"
+  },
+  "author": "Kel Robertson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelrobertson/PUBGHubBackendServer/issues"
+  },
+  "homepage": "https://github.com/kelrobertson/PUBGHubBackendServer#readme"
+}

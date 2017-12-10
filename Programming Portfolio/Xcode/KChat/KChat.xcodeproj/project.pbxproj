@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3018568438DFB9E284477622 /* Pods_KChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3656EAE1860B0A5B0D5E0B1A /* Pods_KChat.framework */; };
+		4B1001511E1EF62100677305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1001501E1EF62100677305 /* AppDelegate.swift */; };
+		4B1001561E1EF62100677305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1001541E1EF62100677305 /* Main.storyboard */; };
+		4B1001591E1EF62100677305 /* KChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B1001571E1EF62100677305 /* KChat.xcdatamodeld */; };
+		4B10015B1E1EF62100677305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B10015A1E1EF62100677305 /* Assets.xcassets */; };
+		4B10015E1E1EF62100677305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B10015C1E1EF62100677305 /* LaunchScreen.storyboard */; };
+		4B10016B1E1EFB4F00677305 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1001681E1EFB4F00677305 /* PreviewView.swift */; };
+		4B10016C1E1EFB4F00677305 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1001691E1EFB4F00677305 /* CameraViewController.swift */; };
+		4B10016D1E1EFB4F00677305 /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10016A1E1EFB4F00677305 /* PhotoCaptureDelegate.swift */; };
+		4B1001701E1F124300677305 /* AAPLCameraVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10016F1E1F124300677305 /* AAPLCameraVCDelegate.swift */; };
+		4B2476161E289F1C00B5898C /* SentMomentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2476151E289F1C00B5898C /* SentMomentsVC.swift */; };
+		4B2476181E28A05900B5898C /* SentMomentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2476171E28A05900B5898C /* SentMomentCell.swift */; };
+		4B42CED71E21AB0900A10D69 /* FriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B42CED61E21AB0900A10D69 /* FriendsVC.swift */; };
+		4B5269121E317F870029DB7A /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5269111E317F870029DB7A /* Banner.swift */; };
+		4B5269161E318C560029DB7A /* EZLoadingActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5269151E318C560029DB7A /* EZLoadingActivity.swift */; };
+		4B52691A1E31975D0029DB7A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5269191E31975D0029DB7A /* LoadingView.swift */; };
+		4B52691C1E319A500029DB7A /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B52691B1E319A500029DB7A /* NotificationView.swift */; };
+		4B64C4471E32CFFC006428CE /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64C4461E32CFFC006428CE /* StorageService.swift */; };
+		4B6B0BDD1E2C9FE800C3E409 /* AddFriendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6B0BDC1E2C9FE800C3E409 /* AddFriendVC.swift */; };
+		4B73495E1E235FC800D9FE90 /* RecievedMomentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B73495D1E235FC800D9FE90 /* RecievedMomentsVC.swift */; };
+		4B7349621E23618200D9FE90 /* RecievedMomentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7349611E23618200D9FE90 /* RecievedMomentCell.swift */; };
+		4B7349641E23676600D9FE90 /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7349631E23676600D9FE90 /* Moment.swift */; };
+		4B7736D41E2C27210084937F /* Notif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7736D31E2C27210084937F /* Notif.swift */; };
+		4B81EEA91E2F047900B6CEA4 /* PhotoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81EEA81E2F047900B6CEA4 /* PhotoData.swift */; };
+		4B81EEAD1E2F30A300B6CEA4 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81EEAC1E2F30A300B6CEA4 /* RegisterVC.swift */; };
+		4B99C6E71E1FB46500E6E861 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B99C6E61E1FB46500E6E861 /* GoogleService-Info.plist */; };
+		4BABF8E01E20683600609DD7 /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BABF8DF1E20683600609DD7 /* RoundTextField.swift */; };
+		4BABF8E21E206C9400609DD7 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BABF8E11E206C9400609DD7 /* RoundedButton.swift */; };
+		4BABF8E61E206F7600609DD7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BABF8E51E206F7600609DD7 /* LoginVC.swift */; };
+		4BAE06B61E21B0CD00DE9299 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE06B51E21B0CD00DE9299 /* FriendCell.swift */; };
+		4BAE06B81E21B48C00DE9299 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE06B71E21B48C00DE9299 /* User.swift */; };
+		4BAE06BA1E21B88800DE9299 /* SendFriendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE06B91E21B88800DE9299 /* SendFriendVC.swift */; };
+		4BB41DFB1E299F1900044C7A /* MyFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB41DFA1E299F1900044C7A /* MyFriendsCell.swift */; };
+		4BB41DFD1E29A23800044C7A /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB41DFC1E29A23800044C7A /* ProfileVC.swift */; };
+		4BB41E011E29B40200044C7A /* MomentImageViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB41E001E29B40200044C7A /* MomentImageViewVC.swift */; };
+		4BB41E051E29D92400044C7A /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB41E041E29D92400044C7A /* NotificationCell.swift */; };
+		4BC6CC811E38551C00B8D932 /* NotificationRequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6CC801E38551C00B8D932 /* NotificationRequestCell.swift */; };
+		4BC77DAF1E285A0600CC5FE8 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC77DAE1E285A0600CC5FE8 /* MenuCell.swift */; };
+		4BC77DB11E285AF200CC5FE8 /* MainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC77DB01E285AF200CC5FE8 /* MainMenuVC.swift */; };
+		4BF754321E207A2A005A474F /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF754311E207A2A005A474F /* AuthService.swift */; };
+		4BF754341E209DA8005A474F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF754331E209DA8005A474F /* DataService.swift */; };
+		4BF754391E20A4C0005A474F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF754361E20A4C0005A474F /* Constants.swift */; };
+		4BF7543A1E20A4C0005A474F /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF754371E20A4C0005A474F /* KeychainItemAccessibility.swift */; };
+		4BF7543B1E20A4C0005A474F /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF754381E20A4C0005A474F /* KeychainWrapper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3656EAE1860B0A5B0D5E0B1A /* Pods_KChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B10014D1E1EF62100677305 /* KChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1001501E1EF62100677305 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B1001551E1EF62100677305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B1001581E1EF62100677305 /* KChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KChat.xcdatamodel; sourceTree = "<group>"; };
+		4B10015A1E1EF62100677305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B10015D1E1EF62100677305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B10015F1E1EF62100677305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B1001681E1EFB4F00677305 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		4B1001691E1EFB4F00677305 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		4B10016A1E1EFB4F00677305 /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		4B10016F1E1F124300677305 /* AAPLCameraVCDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLCameraVCDelegate.swift; sourceTree = "<group>"; };
+		4B2476151E289F1C00B5898C /* SentMomentsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentMomentsVC.swift; sourceTree = "<group>"; };
+		4B2476171E28A05900B5898C /* SentMomentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentMomentCell.swift; sourceTree = "<group>"; };
+		4B42CED61E21AB0900A10D69 /* FriendsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsVC.swift; sourceTree = "<group>"; };
+		4B5269111E317F870029DB7A /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		4B5269151E318C560029DB7A /* EZLoadingActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZLoadingActivity.swift; sourceTree = "<group>"; };
+		4B5269191E31975D0029DB7A /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		4B52691B1E319A500029DB7A /* NotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		4B64C4461E32CFFC006428CE /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		4B6B0BDC1E2C9FE800C3E409 /* AddFriendVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendVC.swift; sourceTree = "<group>"; };
+		4B73495D1E235FC800D9FE90 /* RecievedMomentsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecievedMomentsVC.swift; sourceTree = "<group>"; };
+		4B7349611E23618200D9FE90 /* RecievedMomentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecievedMomentCell.swift; sourceTree = "<group>"; };
+		4B7349631E23676600D9FE90 /* Moment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
+		4B7736D31E2C27210084937F /* Notif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notif.swift; sourceTree = "<group>"; };
+		4B81EEA81E2F047900B6CEA4 /* PhotoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoData.swift; sourceTree = "<group>"; };
+		4B81EEAC1E2F30A300B6CEA4 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		4B99C6E61E1FB46500E6E861 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4BABF8DF1E20683600609DD7 /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		4BABF8E11E206C9400609DD7 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		4BABF8E51E206F7600609DD7 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		4BAE06B51E21B0CD00DE9299 /* FriendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		4BAE06B71E21B48C00DE9299 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4BAE06B91E21B88800DE9299 /* SendFriendVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendFriendVC.swift; sourceTree = "<group>"; };
+		4BB41DFA1E299F1900044C7A /* MyFriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFriendsCell.swift; sourceTree = "<group>"; };
+		4BB41DFC1E29A23800044C7A /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		4BB41E001E29B40200044C7A /* MomentImageViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentImageViewVC.swift; sourceTree = "<group>"; };
+		4BB41E041E29D92400044C7A /* NotificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		4BC6CC801E38551C00B8D932 /* NotificationRequestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationRequestCell.swift; sourceTree = "<group>"; };
+		4BC77DAE1E285A0600CC5FE8 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		4BC77DB01E285AF200CC5FE8 /* MainMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuVC.swift; sourceTree = "<group>"; };
+		4BF754311E207A2A005A474F /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		4BF754331E209DA8005A474F /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		4BF754361E20A4C0005A474F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4BF754371E20A4C0005A474F /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		4BF754381E20A4C0005A474F /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		571385E53053876E6A7476AF /* Pods-KChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-KChat/Pods-KChat.release.xcconfig"; sourceTree = "<group>"; };
+		DBB2618BBB6C3DA3A796DCD7 /* Pods-KChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KChat/Pods-KChat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B10014A1E1EF62100677305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3018568438DFB9E284477622 /* Pods_KChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B1001441E1EF62100677305 = {
+			isa = PBXGroup;
+			children = (
+				4B10014F1E1EF62100677305 /* KChat */,
+				4B10014E1E1EF62100677305 /* Products */,
+				E45800D49DB889D5E3C541CE /* Pods */,
+				51A983977DE7C079D00D569F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B10014E1E1EF62100677305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B10014D1E1EF62100677305 /* KChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B10014F1E1EF62100677305 /* KChat */ = {
+			isa = PBXGroup;
+			children = (
+				4B4805B91E20B23D0011EA11 /* Utils */,
+				4BF754351E20A4B2005A474F /* Constants */,
+				4BF754301E207A17005A474F /* Services */,
+				4B10016E1E1F121900677305 /* Protocols */,
+				4B1001671E1EF67500677305 /* Controller */,
+				4B1001661E1EF67000677305 /* View */,
+				4B1001651E1EF66100677305 /* Model */,
+				4B1001501E1EF62100677305 /* AppDelegate.swift */,
+				4B10016A1E1EFB4F00677305 /* PhotoCaptureDelegate.swift */,
+				4B1001541E1EF62100677305 /* Main.storyboard */,
+				4B10015A1E1EF62100677305 /* Assets.xcassets */,
+				4B10015C1E1EF62100677305 /* LaunchScreen.storyboard */,
+				4B10015F1E1EF62100677305 /* Info.plist */,
+				4B99C6E61E1FB46500E6E861 /* GoogleService-Info.plist */,
+				4B1001571E1EF62100677305 /* KChat.xcdatamodeld */,
+			);
+			path = KChat;
+			sourceTree = "<group>";
+		};
+		4B1001651E1EF66100677305 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4BAE06B71E21B48C00DE9299 /* User.swift */,
+				4B7349631E23676600D9FE90 /* Moment.swift */,
+				4B7736D31E2C27210084937F /* Notif.swift */,
+				4B81EEA81E2F047900B6CEA4 /* PhotoData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4B1001661E1EF67000677305 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B1001681E1EFB4F00677305 /* PreviewView.swift */,
+				4BABF8DF1E20683600609DD7 /* RoundTextField.swift */,
+				4BABF8E11E206C9400609DD7 /* RoundedButton.swift */,
+				4BAE06B51E21B0CD00DE9299 /* FriendCell.swift */,
+				4B7349611E23618200D9FE90 /* RecievedMomentCell.swift */,
+				4BC77DAE1E285A0600CC5FE8 /* MenuCell.swift */,
+				4B2476171E28A05900B5898C /* SentMomentCell.swift */,
+				4BB41DFA1E299F1900044C7A /* MyFriendsCell.swift */,
+				4BB41E041E29D92400044C7A /* NotificationCell.swift */,
+				4B5269191E31975D0029DB7A /* LoadingView.swift */,
+				4B52691B1E319A500029DB7A /* NotificationView.swift */,
+				4BC6CC801E38551C00B8D932 /* NotificationRequestCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4B1001671E1EF67500677305 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B1001691E1EFB4F00677305 /* CameraViewController.swift */,
+				4BABF8E51E206F7600609DD7 /* LoginVC.swift */,
+				4B42CED61E21AB0900A10D69 /* FriendsVC.swift */,
+				4BAE06B91E21B88800DE9299 /* SendFriendVC.swift */,
+				4B73495D1E235FC800D9FE90 /* RecievedMomentsVC.swift */,
+				4BC77DB01E285AF200CC5FE8 /* MainMenuVC.swift */,
+				4B2476151E289F1C00B5898C /* SentMomentsVC.swift */,
+				4BB41DFC1E29A23800044C7A /* ProfileVC.swift */,
+				4BB41E001E29B40200044C7A /* MomentImageViewVC.swift */,
+				4B6B0BDC1E2C9FE800C3E409 /* AddFriendVC.swift */,
+				4B81EEAC1E2F30A300B6CEA4 /* RegisterVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4B10016E1E1F121900677305 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4B10016F1E1F124300677305 /* AAPLCameraVCDelegate.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		4B4805B91E20B23D0011EA11 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4BF754371E20A4C0005A474F /* KeychainItemAccessibility.swift */,
+				4BF754381E20A4C0005A474F /* KeychainWrapper.swift */,
+				4B5269151E318C560029DB7A /* EZLoadingActivity.swift */,
+				4B5269111E317F870029DB7A /* Banner.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		4BF754301E207A17005A474F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4BF754311E207A2A005A474F /* AuthService.swift */,
+				4BF754331E209DA8005A474F /* DataService.swift */,
+				4B64C4461E32CFFC006428CE /* StorageService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		4BF754351E20A4B2005A474F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4BF754361E20A4C0005A474F /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		51A983977DE7C079D00D569F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3656EAE1860B0A5B0D5E0B1A /* Pods_KChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E45800D49DB889D5E3C541CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBB2618BBB6C3DA3A796DCD7 /* Pods-KChat.debug.xcconfig */,
+				571385E53053876E6A7476AF /* Pods-KChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B10014C1E1EF62100677305 /* KChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B1001621E1EF62100677305 /* Build configuration list for PBXNativeTarget "KChat" */;
+			buildPhases = (
+				A4A93041B57713823E77D0F6 /* [CP] Check Pods Manifest.lock */,
+				4B1001491E1EF62100677305 /* Sources */,
+				4B10014A1E1EF62100677305 /* Frameworks */,
+				4B10014B1E1EF62100677305 /* Resources */,
+				19882724990016936CE94DB2 /* [CP] Embed Pods Frameworks */,
+				AE2BB0176FEA80400C40CD94 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KChat;
+			productName = KChat;
+			productReference = 4B10014D1E1EF62100677305 /* KChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B1001451E1EF62100677305 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kel Robertson";
+				TargetAttributes = {
+					4B10014C1E1EF62100677305 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = EFBLS9ZUN2;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4B1001481E1EF62100677305 /* Build configuration list for PBXProject "KChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B1001441E1EF62100677305;
+			productRefGroup = 4B10014E1E1EF62100677305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B10014C1E1EF62100677305 /* KChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B10014B1E1EF62100677305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B10015E1E1EF62100677305 /* LaunchScreen.storyboard in Resources */,
+				4B99C6E71E1FB46500E6E861 /* GoogleService-Info.plist in Resources */,
+				4B10015B1E1EF62100677305 /* Assets.xcassets in Resources */,
+				4B1001561E1EF62100677305 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19882724990016936CE94DB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KChat/Pods-KChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4A93041B57713823E77D0F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE2BB0176FEA80400C40CD94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KChat/Pods-KChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B1001491E1EF62100677305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BABF8E01E20683600609DD7 /* RoundTextField.swift in Sources */,
+				4B10016D1E1EFB4F00677305 /* PhotoCaptureDelegate.swift in Sources */,
+				4B7349641E23676600D9FE90 /* Moment.swift in Sources */,
+				4BF754341E209DA8005A474F /* DataService.swift in Sources */,
+				4B73495E1E235FC800D9FE90 /* RecievedMomentsVC.swift in Sources */,
+				4B64C4471E32CFFC006428CE /* StorageService.swift in Sources */,
+				4B6B0BDD1E2C9FE800C3E409 /* AddFriendVC.swift in Sources */,
+				4B7349621E23618200D9FE90 /* RecievedMomentCell.swift in Sources */,
+				4B10016C1E1EFB4F00677305 /* CameraViewController.swift in Sources */,
+				4BF7543A1E20A4C0005A474F /* KeychainItemAccessibility.swift in Sources */,
+				4BC6CC811E38551C00B8D932 /* NotificationRequestCell.swift in Sources */,
+				4B52691C1E319A500029DB7A /* NotificationView.swift in Sources */,
+				4BABF8E61E206F7600609DD7 /* LoginVC.swift in Sources */,
+				4B2476161E289F1C00B5898C /* SentMomentsVC.swift in Sources */,
+				4BC77DB11E285AF200CC5FE8 /* MainMenuVC.swift in Sources */,
+				4BF754321E207A2A005A474F /* AuthService.swift in Sources */,
+				4BF754391E20A4C0005A474F /* Constants.swift in Sources */,
+				4BF7543B1E20A4C0005A474F /* KeychainWrapper.swift in Sources */,
+				4B81EEAD1E2F30A300B6CEA4 /* RegisterVC.swift in Sources */,
+				4BB41E011E29B40200044C7A /* MomentImageViewVC.swift in Sources */,
+				4B52691A1E31975D0029DB7A /* LoadingView.swift in Sources */,
+				4BB41E051E29D92400044C7A /* NotificationCell.swift in Sources */,
+				4B2476181E28A05900B5898C /* SentMomentCell.swift in Sources */,
+				4B42CED71E21AB0900A10D69 /* FriendsVC.swift in Sources */,
+				4BABF8E21E206C9400609DD7 /* RoundedButton.swift in Sources */,
+				4BAE06B61E21B0CD00DE9299 /* FriendCell.swift in Sources */,
+				4B5269161E318C560029DB7A /* EZLoadingActivity.swift in Sources */,
+				4B1001701E1F124300677305 /* AAPLCameraVCDelegate.swift in Sources */,
+				4BC77DAF1E285A0600CC5FE8 /* MenuCell.swift in Sources */,
+				4B10016B1E1EFB4F00677305 /* PreviewView.swift in Sources */,
+				4BB41DFB1E299F1900044C7A /* MyFriendsCell.swift in Sources */,
+				4BAE06BA1E21B88800DE9299 /* SendFriendVC.swift in Sources */,
+				4BB41DFD1E29A23800044C7A /* ProfileVC.swift in Sources */,
+				4B1001511E1EF62100677305 /* AppDelegate.swift in Sources */,
+				4B81EEA91E2F047900B6CEA4 /* PhotoData.swift in Sources */,
+				4B1001591E1EF62100677305 /* KChat.xcdatamodeld in Sources */,
+				4B5269121E317F870029DB7A /* Banner.swift in Sources */,
+				4B7736D41E2C27210084937F /* Notif.swift in Sources */,
+				4BAE06B81E21B48C00DE9299 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B1001541E1EF62100677305 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B1001551E1EF62100677305 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B10015C1E1EF62100677305 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B10015D1E1EF62100677305 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B1001601E1EF62100677305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B1001611E1EF62100677305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B1001631E1EF62100677305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB2618BBB6C3DA3A796DCD7 /* Pods-KChat.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = EFBLS9ZUN2;
+				INFOPLIST_FILE = KChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelrobertson.KChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B1001641E1EF62100677305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571385E53053876E6A7476AF /* Pods-KChat.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = EFBLS9ZUN2;
+				INFOPLIST_FILE = KChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelrobertson.KChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B1001481E1EF62100677305 /* Build configuration list for PBXProject "KChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1001601E1EF62100677305 /* Debug */,
+				4B1001611E1EF62100677305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B1001621E1EF62100677305 /* Build configuration list for PBXNativeTarget "KChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1001631E1EF62100677305 /* Debug */,
+				4B1001641E1EF62100677305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B1001571E1EF62100677305 /* KChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B1001581E1EF62100677305 /* KChat.xcdatamodel */,
+			);
+			currentVersion = 4B1001581E1EF62100677305 /* KChat.xcdatamodel */;
+			path = KChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4B1001451E1EF62100677305 /* Project object */;
+}

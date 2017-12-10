@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire" ~> 4.4
+github "Alamofire/AlamofireImage" ~> 3.2
+github "tid-kijyun/Kanna" ~> 2.1.0
+github "gilesvangruisen/Swift-YouTube-Player"

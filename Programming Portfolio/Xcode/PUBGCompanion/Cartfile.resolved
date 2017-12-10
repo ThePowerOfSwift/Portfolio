@@ -1,0 +1,7 @@
+github "Alamofire/Alamofire" "4.5.1"
+github "Alamofire/AlamofireImage" "3.3.0"
+github "Thomvis/BrightFutures" "5.2.0"
+github "antitypical/Result" "3.2.3"
+github "gilesvangruisen/Swift-YouTube-Player" "v0.4.0"
+github "phimage/Erik" "2.0.2"
+github "tid-kijyun/Kanna" "2.2.1"

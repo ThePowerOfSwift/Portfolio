@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Arvin Light.ttf">
+            <string>ArvinLight-@</string>
+        </array>
+        <array key="Arvin Regular.ttf">
+            <string>ArvinRegular-@</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--LoginVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginVC" customModule="PenFriends" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.050000000000000003" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="letters" translatesAutoresizingMaskIntoConstraints="NO" id="Aqp-dm-dRy">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sYO-hX-6jG">
+                                <rect key="frame" x="103.5" y="118.5" width="168" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DuN-o7-Idi">
+                                        <rect key="frame" x="0.0" y="0.0" width="51" height="40"/>
+                                        <fontDescription key="fontDescription" name="ArvinLight-@" family="Arvin Light" pointSize="35"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friends." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJq-wW-BCW">
+                                        <rect key="frame" x="51" y="0.0" width="117" height="40"/>
+                                        <fontDescription key="fontDescription" name="ArvinRegular-@" family="Arvin Regular" pointSize="35"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="kCa-9d-E2h"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="B7I-yh-Wz6">
+                                <rect key="frame" x="16" y="198.5" width="343" height="310"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HmI-Vs-ygN" customClass="CustomTextField" customModule="PenFriends" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="sCd-OL-8lK"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="ArvinLight-@" family="Arvin Light" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadis">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V8H-lL-Raz" customClass="CustomTextField" customModule="PenFriends" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="65" width="343" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="qby-G3-NFb"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="ArvinLight-@" family="Arvin Light" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadis">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HXQ-26-IgS" customClass="CustomTextField" customModule="PenFriends" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="130" width="343" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="N1b-yS-3OA"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="ArvinLight-@" family="Arvin Light" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadis">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vdM-Jj-Btk">
+                                        <rect key="frame" x="76.5" y="195" width="190" height="40"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="suy-TV-fZj" customClass="CustomButton" customModule="PenFriends" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="40" id="WmP-fv-ZKs"/>
+                                                    <constraint firstAttribute="height" constant="40" id="sTs-ps-ObZ"/>
+                                                </constraints>
+                                                <state key="normal" image="facebook"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadis">
+                                                        <real key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.17254901960784313" green="0.25098039215686274" blue="0.55686274509803924" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="facebookLoginPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FZK-jX-vfX"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eir-oz-em9" customClass="CustomButton" customModule="PenFriends" customModuleProvider="target">
+                                                <rect key="frame" x="50" y="0.0" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="PfR-3C-fhh"/>
+                                                    <constraint firstAttribute="width" constant="40" id="nOL-St-qRj"/>
+                                                </constraints>
+                                                <state key="normal" image="google-plus"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadis">
+                                                        <real key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.17254901959999999" green="0.25098039220000001" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="googleLoginPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rxp-5g-lcT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Enw-Nd-hXE" customClass="CustomButton" customModule="PenFriends" customModuleProvider="target">
+                                                <rect key="frame" x="100" y="0.0" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="gZe-WV-PAC"/>
+                                                    <constraint firstAttribute="width" constant="40" id="geb-X5-ncD"/>
+                                                </constraints>
+                                                <state key="normal" image="instagram"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadis">
+                                                        <real key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.17254901959999999" green="0.25098039220000001" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="instagramLoginPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L0T-FN-8vS"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZV-Lh-PvS" customClass="CustomButton" customModule="PenFriends" customModuleProvider="target">
+                                                <rect key="frame" x="150" y="0.0" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="FZw-Zu-Zrp"/>
+                                                    <constraint firstAttribute="width" constant="40" id="se2-xw-dsR"/>
+                                                </constraints>
+                                                <state key="normal" image="twitter"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadis">
+                                                        <real key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.17254901959999999" green="0.25098039220000001" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="twitterLoginPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nB4-fs-OqE"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5BN-fu-6GF" customClass="CustomButton" customModule="PenFriends" customModuleProvider="target">
+                                        <rect key="frame" x="107.5" y="260" width="128" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Ghk-Ao-Fim"/>
+                                            <constraint firstAttribute="width" constant="128" id="iQB-3N-ttr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ArvinRegular-@" family="Arvin Regular" pointSize="17"/>
+                                        <state key="normal" title="Sign In">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadis">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                <color key="value" red="0.30588235294117649" green="0.68627450980392157" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="signInButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nLg-yC-WBz"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="HmI-Vs-ygN" secondAttribute="trailing" id="RhQ-ep-7Oo"/>
+                                    <constraint firstAttribute="trailing" secondItem="HXQ-26-IgS" secondAttribute="trailing" id="XTM-s8-GGC"/>
+                                    <constraint firstItem="HXQ-26-IgS" firstAttribute="leading" secondItem="B7I-yh-Wz6" secondAttribute="leading" id="b31-7r-fI8"/>
+                                    <constraint firstItem="V8H-lL-Raz" firstAttribute="leading" secondItem="B7I-yh-Wz6" secondAttribute="leading" id="kzB-b7-AY2"/>
+                                    <constraint firstItem="HmI-Vs-ygN" firstAttribute="leading" secondItem="B7I-yh-Wz6" secondAttribute="leading" id="rds-ew-u4p"/>
+                                    <constraint firstAttribute="trailing" secondItem="V8H-lL-Raz" secondAttribute="trailing" id="zNg-W5-YNe"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="B7I-yh-Wz6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EyF-Xu-8qx"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Aqp-dm-dRy" secondAttribute="bottom" id="HAz-TT-dsU"/>
+                            <constraint firstItem="B7I-yh-Wz6" firstAttribute="top" secondItem="sYO-hX-6jG" secondAttribute="bottom" constant="40" id="HzM-30-PrH"/>
+                            <constraint firstItem="sYO-hX-6jG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LPp-BT-gIK"/>
+                            <constraint firstItem="Aqp-dm-dRy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="WNu-0D-Lvo"/>
+                            <constraint firstItem="Aqp-dm-dRy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WQV-H3-sE5"/>
+                            <constraint firstAttribute="trailing" secondItem="Aqp-dm-dRy" secondAttribute="trailing" id="aqs-0E-jk4"/>
+                            <constraint firstItem="B7I-yh-Wz6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="tUt-D9-8ll"/>
+                            <constraint firstAttribute="trailing" secondItem="B7I-yh-Wz6" secondAttribute="trailing" constant="16" id="tcF-od-4hX"/>
+                            <constraint firstItem="B7I-yh-Wz6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="20" id="w03-Ef-Mjg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailAddressInput" destination="V8H-lL-Raz" id="r66-hJ-qy4"/>
+                        <outlet property="passwordInput" destination="HXQ-26-IgS" id="bx1-u7-88G"/>
+                        <outlet property="usernameInput" destination="HmI-Vs-ygN" id="3Do-ER-9oe"/>
+                        <segue destination="kqK-ma-IlO" kind="show" identifier="signIn" id="kDn-Pg-2ff"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+        <!--MainVC-->
+        <scene sceneID="xdS-uf-OtD">
+            <objects>
+                <viewController id="kqK-ma-IlO" customClass="MainVC" customModule="PenFriends" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2wh-6j-Inl"/>
+                        <viewControllerLayoutGuide type="bottom" id="k5J-gC-1U2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HUc-1V-jR2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="letters" translatesAutoresizingMaskIntoConstraints="NO" id="pQV-sV-g6R">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="ttz-5x-AMP">
+                                <rect key="frame" x="113" y="20" width="149" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wkU-Md-xkY">
+                                        <rect key="frame" x="0.0" y="0.0" width="45" height="40"/>
+                                        <fontDescription key="fontDescription" name="ArvinLight-@" family="Arvin Light" pointSize="31"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friends." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYQ-a8-DY7">
+                                        <rect key="frame" x="45" y="0.0" width="104" height="40"/>
+                                        <fontDescription key="fontDescription" name="ArvinRegular-@" family="Arvin Regular" pointSize="31"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="WXZ-jF-ltB"/>
+                                </constraints>
+                            </stackView>
+                            <tabBar contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="7p5-eJ-YK0">
+                                <rect key="frame" x="0.0" y="607" width="375" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="0we-NM-oMR"/>
+                                </constraints>
+                                <items>
+                                    <tabBarItem title="Send Mail" image="send" selectedImage="send" id="1QC-iW-eAM">
+                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-6"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Achievements" image="achievement" badgeValue="1" selectedImage="achievement" id="eJX-zd-5ic">
+                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-6"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Pen Friends" image="travel" badgeValue="25" selectedImage="travel" id="pa9-Ez-15i">
+                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-6"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Mailbox" image="mailbox" selectedImage="mailbox" id="dgy-0n-fuO">
+                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-6"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="Profile" image="user" selectedImage="user" id="yFx-hJ-h2j">
+                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-6"/>
+                                    </tabBarItem>
+                                </items>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="selectedImageTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </tabBar>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Tli-Ce-uha">
+                                <rect key="frame" x="0.0" y="60" width="375" height="547"/>
+                                <color key="backgroundColor" red="0.030278624966740608" green="0.00065289810299873352" blue="0.082648798823356628" alpha="0.58116918103448278" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="EvG-wa-scF">
+                                    <size key="itemSize" width="286" height="109"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="15" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="penMessageCell" id="9Eq-wA-CiS" customClass="PenMessageCell" customModule="PenFriends" customModuleProvider="target">
+                                        <rect key="frame" x="45" y="15" width="286" height="109"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="286" height="109"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4wh-wg-2ar" customClass="CustomView" customModule="PenFriends" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.0" width="286" height="109"/>
+                                                    <color key="backgroundColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                </view>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail-1454731_1280" translatesAutoresizingMaskIntoConstraints="NO" id="zo4-EZ-IfW">
+                                                    <rect key="frame" x="8" y="15" width="80" height="80"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="80" id="F1k-pO-8MV"/>
+                                                        <constraint firstAttribute="height" constant="80" id="vbo-Gu-8Qb"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Trz-Aa-olG">
+                                                    <rect key="frame" x="98" y="25" width="170" height="60"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You've got Mail" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="su9-T0-omy">
+                                                            <rect key="frame" x="0.0" y="0.0" width="170" height="19"/>
+                                                            <fontDescription key="fontDescription" name="ArvinRegular-@" family="Arvin Regular" pointSize="17"/>
+                                                            <color key="textColor" red="0.30588235289999999" green="0.68627450980000004" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="from" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9Q-yK-J6t">
+                                                            <rect key="frame" x="0.0" y="22" width="170" height="16"/>
+                                                            <fontDescription key="fontDescription" name="ArvinRegular-@" family="Arvin Regular" pointSize="14"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crystal.nilsson" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="83Z-Lb-bPf">
+                                                            <rect key="frame" x="0.0" y="41" width="170" height="19"/>
+                                                            <fontDescription key="fontDescription" name="ArvinRegular-@" family="Arvin Regular" pointSize="17"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="4wh-wg-2ar" firstAttribute="top" secondItem="9Eq-wA-CiS" secondAttribute="top" id="IGM-dr-v2P"/>
+                                            <constraint firstAttribute="bottom" secondItem="4wh-wg-2ar" secondAttribute="bottom" id="Jzh-Vh-q9I"/>
+                                            <constraint firstAttribute="trailing" secondItem="4wh-wg-2ar" secondAttribute="trailing" id="cn4-XD-tHr"/>
+                                            <constraint firstItem="4wh-wg-2ar" firstAttribute="leading" secondItem="9Eq-wA-CiS" secondAttribute="leading" id="dcR-sK-CMv"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="Trz-Aa-olG" secondAttribute="trailing" constant="10" id="jwB-Th-q6M"/>
+                                            <constraint firstItem="Trz-Aa-olG" firstAttribute="centerY" secondItem="9Eq-wA-CiS" secondAttribute="centerY" id="kbH-XE-fhc"/>
+                                            <constraint firstItem="zo4-EZ-IfW" firstAttribute="centerY" secondItem="9Eq-wA-CiS" secondAttribute="centerY" id="mc4-Ba-46P"/>
+                                            <constraint firstItem="zo4-EZ-IfW" firstAttribute="leading" secondItem="9Eq-wA-CiS" secondAttribute="leadingMargin" id="mmt-OH-OpD"/>
+                                            <constraint firstItem="Trz-Aa-olG" firstAttribute="leading" secondItem="zo4-EZ-IfW" secondAttribute="trailing" constant="10" id="w3h-cW-aVC"/>
+                                        </constraints>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.076877795159816742" green="0.094612434506416321" blue="0.22865840792655945" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="pQV-sV-g6R" firstAttribute="top" secondItem="HUc-1V-jR2" secondAttribute="top" id="FlL-6V-m8T"/>
+                            <constraint firstItem="ttz-5x-AMP" firstAttribute="centerX" secondItem="HUc-1V-jR2" secondAttribute="centerX" id="L75-cN-VGC"/>
+                            <constraint firstAttribute="trailing" secondItem="pQV-sV-g6R" secondAttribute="trailing" id="MIy-EN-AyN"/>
+                            <constraint firstItem="k5J-gC-1U2" firstAttribute="top" secondItem="pQV-sV-g6R" secondAttribute="bottom" id="NSX-vQ-Yyu"/>
+                            <constraint firstItem="7p5-eJ-YK0" firstAttribute="leading" secondItem="HUc-1V-jR2" secondAttribute="leading" id="PEZ-EI-RHH"/>
+                            <constraint firstItem="Tli-Ce-uha" firstAttribute="leading" secondItem="HUc-1V-jR2" secondAttribute="leading" id="RdV-WG-TUs"/>
+                            <constraint firstItem="Tli-Ce-uha" firstAttribute="top" secondItem="ttz-5x-AMP" secondAttribute="bottom" id="TDZ-4V-Oe4"/>
+                            <constraint firstAttribute="trailing" secondItem="7p5-eJ-YK0" secondAttribute="trailing" id="V5f-ps-RoO"/>
+                            <constraint firstAttribute="trailing" secondItem="Tli-Ce-uha" secondAttribute="trailing" id="ZDs-4e-DqB"/>
+                            <constraint firstItem="7p5-eJ-YK0" firstAttribute="top" secondItem="Tli-Ce-uha" secondAttribute="bottom" id="gG8-JC-Pug"/>
+                            <constraint firstItem="pQV-sV-g6R" firstAttribute="leading" secondItem="HUc-1V-jR2" secondAttribute="leading" id="hwo-7u-cEK"/>
+                            <constraint firstItem="k5J-gC-1U2" firstAttribute="top" secondItem="7p5-eJ-YK0" secondAttribute="bottom" id="kOs-Ox-y8B"/>
+                            <constraint firstItem="ttz-5x-AMP" firstAttribute="top" secondItem="HUc-1V-jR2" secondAttribute="topMargin" constant="20" id="uuV-Lj-kYO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="messageCollectionView" destination="Tli-Ce-uha" id="UJR-oE-7bc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CXX-DQ-Wnt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="937" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="achievement" width="17" height="25"/>
+        <image name="facebook" width="25" height="25"/>
+        <image name="google-plus" width="25" height="25"/>
+        <image name="instagram" width="25" height="25"/>
+        <image name="letters" width="1920" height="1169"/>
+        <image name="mail-1454731_1280" width="1280" height="1280"/>
+        <image name="mailbox" width="21" height="25"/>
+        <image name="send" width="25" height="15"/>
+        <image name="travel" width="25" height="25"/>
+        <image name="twitter" width="25" height="25"/>
+        <image name="user" width="25" height="25"/>
+    </resources>
+</document>

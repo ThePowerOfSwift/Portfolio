@@ -1,0 +1,9 @@
+{
+  "commitish" : "v0.4.0",
+  "iOS" : [
+    {
+      "hash" : "fd21698d85ee68f8b452ee96a81ee77dc749d2e06d1abbc99ce5609232d3589c",
+      "name" : "YouTubePlayer"
+    }
+  ]
+}

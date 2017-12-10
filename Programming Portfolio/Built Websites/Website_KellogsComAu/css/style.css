@@ -1,0 +1,715 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix{
+    clear: both;
+}
+
+/*Pretty Print CSS*/
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+/*Sound Productions CSS*/
+
+#img-left-about{
+    background-image: url("../img/merch%20logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 320px;
+    margin-top: 25px;
+}
+#aboutMe{
+    text-align: left;
+}
+#aboutMeDesc{
+padding-left: 30px;
+}
+#tracks a li{
+    list-style: none;
+    text-align: left;
+    padding: 2px;
+    text-decoration: none;
+    color: black;
+}
+
+#plays,#downloads,#comments{
+    display: block;
+    text-align: center;    
+}
+.stats{
+    width: 10%;
+    float: right;
+    padding: 2px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+#tracks a li:hover{
+    color: white;
+    background: #da3333;
+}
+#tracks{
+    max-height: 400px;
+    overflow: scroll;
+}
+#autoWidth li img{
+    background-size: contain;
+    height: 300px;
+}
+.lSPrev, .lSNext{
+    background: #da3333;
+}
+/*Container animation blog post */
+
+/*Facebook CSS*/
+#fbstats{
+   text-align: center;
+   font-size: 15px;
+    padding: 3px;
+}
+hr{
+    background:#da3333 ;
+    border: solid 0.5px #da3333;
+}
+.latestDesc, .moreTracks{
+    color: #da3333;
+    text-align: center;
+}
+.latestDesc h5{
+    padding-top: 10px;
+    margin-top: 5px;
+}
+ul.nav.nav-tabs{
+    margin-bottom: 3px;
+    margin-right: 3px;
+    display: block;
+    color: #da3333 !important;
+    background: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ul.nav.nav-tabs a{
+    color: #da3333;
+}
+ul.nav.nav-tabs a:hover{
+    color: white;
+    background: #da3333;
+}
+.latestDesc p{
+    padding: 10px;
+}
+#socialNews ul.media-list li.media {
+}
+.navbar{
+    background: #da3333;
+}
+.slogan{
+    margin-left: 200px;
+    margin-top: 13px;
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;  
+}
+.white-popup{
+  position: relative;
+    background: white !important;
+    padding: 30px;
+    margin: 0 auto;
+  color: #da3333 !important;
+    width: 410px;
+}
+.white-popup-post{
+  position: relative;
+    background: white !important;
+    padding: 30px !important;
+    margin: 0 auto;
+  color: #da3333 !important;
+    width: 50%;
+}
+.white-popup-tweet{
+  position: relative;
+    background: white !important;
+    margin: 0 auto;
+  color: #da3333 !important;
+    width: 450px;   
+}
+.white-popup-soundcloud{
+  position: relative;
+    background: white !important;
+    margin: 0 auto;
+  color: #da3333 !important;
+    width: 450px;   
+}
+.white-popup-instagram{
+  position: relative;
+    background: white !important;
+    margin: 0 auto;
+  color: #da3333 !important;
+    width: 450px;   
+}
+.fa.fa-facebook-official{
+position: relative;
+font-size: 30px;
+float: right;
+right: 25px;
+
+}
+.fa.fa-twitter{
+position: relative;
+font-size: 30px;
+float: right;
+bottom: 0px;
+right: 25px;
+}
+.white-popup iframe{
+    background: white;
+}
+.item{
+    height: 300px;
+    position: relative;
+}
+
+.item #caption{
+    color: white;
+    position: fixed;
+    font-size: 12px;
+    background: black;
+    opacity: 0.8;
+    padding: 15px;
+    margin-bottom: 20px;
+
+}
+/*Web Development CSS*/
+#img-left-development{
+    background-image: url("../img/developmentImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    width: 320px;
+    margin-top: 25px;
+}
+#skills_tags i{
+    border: solid 1px #da3333;
+    padding: 8px;
+    margin: 3px 3px;
+    background: #da3333;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/*Small Screen CSS*/
+@media (max-width:960px) {
+    .item #caption{
+        font-size: 9px;
+        
+    }
+    .item #caption h4{
+        font-size: 12px;
+        
+    }
+    .nav.nav-tabs{
+    font-size: 8px;
+    text-align: center;
+}
+}
+#trackImg0{
+    margin: 0 auto;
+}
+#trackData{
+
+    color: white;
+}
+.carousel-inner{
+    background: url('../img/merch%20logo.jpg') center;
+    background-size: cover;
+}
+.fb-login-button{
+    padding-left:50px;
+}
+.navbar-header .navbar-brand{
+    color: white;
+}
+.navbar-header .navbar-brand:hover{
+    color: #da3333;
+    background-color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    text-align: center;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #da3333;
+    background: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ddd;
+}
+.navbar-default .navbar-toggle {
+background-color: #da3333;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+background-color: white;
+}
+.navbar-default .navbar-toggle span:hover{
+    background-color: #da3333;
+}
+.blogHead{
+    text-align: center;
+    color: #da3333;
+}
+.blog-main{
+    height: 450px;
+    width: 0 auto;
+    overflow: scroll; 
+}
+#blog-main .blog-post h4{
+    margin-left: 0px; 
+}
+#blog-main .blog-post p.blog-post-meta{
+    margin-left: 10px; 
+    font-size: 12px;
+    font-style: italic;
+}
+#blog-main .caption{
+    padding:10px;
+    margin-left: 10px;
+}
+li.media{
+    list-style: none;
+    width: 0 auto;
+    text-overflow: ellipsis;
+}
+li.media .media-left{
+    padding: 10px;
+}
+li.media span{
+    padding: 2px;
+    
+}
+#posted{
+    font-size: 10px;
+    margin-left: 8px;
+    margin-top: 9px;
+    font-style: italic;
+    
+}
+.caption a{
+    float: right;
+}
+li.media a{
+    text-decoration: none;
+    color: black;
+}
+
+li.media:hover{
+
+    border: solid 1px #da3333;
+    box-shadow: 2px 0px 10px #da3333;
+}
+li.media a:hover{
+    color: #da3333;
+}
+div#socialNews{
+    height: 450px;
+    width: auto;
+    overflow: scroll;
+}
+.favs{
+    float: right;
+    right: 20px;
+    position: relative;
+    font-size: 30px;  
+    bottom: 2px;
+}
+.favs i{
+    position: relative;
+    font-size: 16px;
+    font-family: Helvetica;
+    bottom: 10px;
+    right: 29px;
+    color: white;
+}
+div#twitterNews{
+    height: 450px;
+    width: auto;
+    overflow: scroll;
+}
+div#instagramNews{
+    height: 450px;
+    width: auto;
+    overflow: scroll;
+    text-align: center;
+}
+div#instagramNews video{
+    width: 100%;
+    padding: 15px;
+}
+#socailMsg:hover{
+    color: #da3333;
+}
+
+#body{
+    font-size: 12px;
+    padding: 15px;
+    font-weight: 500; 
+}
+li.dropdown.open ul.dropdown-menu.login{
+    margin: 0 auto;
+}
+ul.dropdown-menu {
+    padding: 0;
+    color: white;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #da3333;
+    color: white; 
+}
+.navbar-default .navbar-nav .open .dropdown-menu.login>li>a, .navbar-default .navbar-nav .open .dropdown-menu.login {
+    background-color: #da3333;
+    width: 100px;
+    color: white; 
+}
+.navbar.navbar-default .navbar-nav li.dropdown.open > .dropdown-toggle,
+.navbar.navbar-default .navbar-nav li.dropdown.active > .dropdown-toggle,
+.navbar.navbar-default .navbar-nav li.dropdown.open.active > .dropdown-toggle{
+  background: white;
+  color: #da3333;
+}
+.navbar-default .navbar-nav .open .dropdown-menu{
+    padding: 0;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+       background-color: white;
+    color: #da3333; 
+}
+.navbar-default .navbar-nav .open .dropdown-menu:hover{
+    background-color: white;
+    color: #da3333;
+}
+ul.dropdown-menu li a{
+    background-color: #da3333;
+    padding: 16px;
+    color: white; 
+    text-decoration: none;
+}
+ul.dropdown-menu li a:hover{
+    background-color: white;
+    color: #da3333;
+}
+#portfolio ul li a{
+    background-color: white;
+    padding: 16px;
+    color: #da3333; 
+    text-decoration: none;
+    display: block;
+    border: solid 1px #da3333;
+}
+#portfolio ul li a:hover{
+    color: white;
+    background-color: #da3333;
+}
+#portfolio ul li{
+    padding: 20px;
+    display: block;
+}
+.logoutForm .btn{
+    margin-top: 7px;
+}
+form input.btn{
+    margin-bottom: 3px;
+    margin-right: 3px;
+    display: block;
+    float: right;
+    color: #da3333;
+    background: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+input#recentPost.btn{
+    margin: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: #da3333;
+    display: block;
+    background: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+}
+input#recentPost.btn:hover{
+    background: #da3333;
+    color: white;
+}
+.input-group#months .btn{
+    display: inline-block;
+    width: 47%;
+}
+#contact_form .btn.btn-danger{
+    margin: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: #da3333;
+    display: block;
+    background: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+}
+#contact_form .btn.btn-danger:hover{
+        background: #da3333;
+    color: white;
+}
+#captcha{
+    padding-left: 27px;
+}
+#contact_blurb{
+    text-align: center;
+}
+form a.btn{
+    margin-bottom: 3px;
+    display: block;
+
+    color: #da3333;
+    background: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.input-group span.input-group-btn{
+    background-color: #da3333 !important;
+}
+.side-bar h3{
+text-align: center;
+    color: #da3333;
+}
+#drop{
+text-align: center;
+display: block;
+
+}
+#drop input{
+    display:none;
+}
+
+#upload ul{
+    list-style:none;
+}
+
+#upload ul li{
+
+    background-color: white;
+    padding:1px;
+    height: 52px;
+}
+
+#upload ul li input{
+    display: none;
+}
+
+#upload ul li i{
+    font-weight: normal;
+    font-style:normal;
+    color:#7f7f7f;
+    display:block;
+}
+
+#upload ul li canvas{
+    top: 15px;
+    left: 32px;
+    background-color: white;
+}
+
+#upload ul li.working span{
+    height: 16px;
+    background-position: 0 -12px;
+}
+
+#upload ul li.error p{
+    color:red;
+}
+
+p#articleContent{
+    white-space: pre-wrap;
+}
+ul.dropdown-menu.login{
+    text-align: center;
+    width: 200px !important;
+}
+.side-bar input[type="button"]{
+    padding: 10px;
+    margin: 3px;
+    display: inline-block;
+}
+.navbar-default .navbar-nav .open .dropdown-menu.login, 
+.navbar-default .navbar-nav .open .dropdown-menu.login:hover{
+    padding: 10px;
+    color: white;
+    background-color: #da3333;
+}
+footer{
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer span{
+    color: #da3333;
+    font-weight: bold;
+    letter-spacing: -1px
+}
+
+/* Basic Example */
+
+.mfp-no-margins img.mfp-img {
+padding: 0;
+}
+.mfp-no-margins .mfp-figure:after {
+top: 0;
+bottom: 0;
+}
+.mfp-no-margins .mfp-container {
+padding: 0;
+}
+/**
+ * Simple fade transition,
+ */
+.mfp-fade.mfp-bg {
+opacity: 0;
+-webkit-transition: all 0.15s ease-out;
+-moz-transition: all 0.15s ease-out;
+transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+opacity: 0;
+}
+.mfp-fade.mfp-wrap .mfp-content {
+opacity: 0;
+-webkit-transition: all 0.15s ease-out;
+-moz-transition: all 0.15s ease-out;
+transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+opacity: 0;
+}
+/* Styles for dialog window */
+#small-dialog {
+background: white;
+padding: 20px 30px;
+text-align: left;
+max-width: 400px;
+margin: 40px auto;
+position: relative;
+}
+/**
+ * Fade-zoom animation for first dialog
+ */
+
+/* start state */
+.my-mfp-zoom-in #small-dialog {
+opacity: 0;
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+-webkit-transform: scale(0.8);
+-moz-transform: scale(0.8);
+-ms-transform: scale(0.8);
+-o-transform: scale(0.8);
+transform: scale(0.8);
+}
+/* animate in */
+.my-mfp-zoom-in.mfp-ready #small-dialog {
+opacity: 1;
+-webkit-transform: scale(1);
+-moz-transform: scale(1);
+-ms-transform: scale(1);
+-o-transform: scale(1);
+transform: scale(1);
+}
+/* animate out */
+.my-mfp-zoom-in.mfp-removing #small-dialog {
+-webkit-transform: scale(0.8);
+-moz-transform: scale(0.8);
+-ms-transform: scale(0.8);
+-o-transform: scale(0.8);
+transform: scale(0.8);
+opacity: 0;
+}
+/* Dark overlay, start state */
+.my-mfp-zoom-in.mfp-bg {
+opacity: 0;
+-webkit-transition: opacity 0.3s ease-out;
+-moz-transition: opacity 0.3s ease-out;
+-o-transition: opacity 0.3s ease-out;
+transition: opacity 0.3s ease-out;
+}
+/* animate in */
+.my-mfp-zoom-in.mfp-ready.mfp-bg {
+opacity: 0.8;
+}
+/* animate out */
+.my-mfp-zoom-in.mfp-removing.mfp-bg {
+opacity: 0;
+}
+/**
+ * Fade-move animation for second dialog
+ */
+
+/* at start */
+.my-mfp-slide-bottom #small-dialog {
+opacity: 0;
+-webkit-transition: all 0.2s ease-out;
+-moz-transition: all 0.2s ease-out;
+-o-transition: all 0.2s ease-out;
+transition: all 0.2s ease-out;
+-webkit-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+-moz-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+-ms-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+-o-transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+transform: translateY(-20px) perspective( 600px ) rotateX( 10deg );
+}
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready #small-dialog {
+opacity: 1;
+-webkit-transform: translateY(0) perspective( 600px ) rotateX( 0 );
+-moz-transform: translateY(0) perspective( 600px ) rotateX( 0 );
+-ms-transform: translateY(0) perspective( 600px ) rotateX( 0 );
+-o-transform: translateY(0) perspective( 600px ) rotateX( 0 );
+transform: translateY(0) perspective( 600px ) rotateX( 0 );
+}
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing #small-dialog {
+opacity: 0;
+-webkit-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg );
+-moz-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg );
+-ms-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg );
+-o-transform: translateY(-10px) perspective( 600px ) rotateX( 10deg );
+transform: translateY(-10px) perspective( 600px ) rotateX( 10deg );
+}
+/* Dark overlay, start state */
+.my-mfp-slide-bottom.mfp-bg {
+opacity: 0;
+-webkit-transition: opacity 0.3s ease-out;
+-moz-transition: opacity 0.3s ease-out;
+-o-transition: opacity 0.3s ease-out;
+transition: opacity 0.3s ease-out;
+}
+/* animate in */
+.my-mfp-slide-bottom.mfp-ready.mfp-bg {
+opacity: 0.8;
+}
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing.mfp-bg {
+opacity: 0;
+}

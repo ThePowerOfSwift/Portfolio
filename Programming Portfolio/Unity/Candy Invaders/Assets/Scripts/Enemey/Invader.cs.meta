@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3cfaae6e286494e66bb57573917ebcd9
+timeCreated: 1494734980
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - invaderDieSound: {fileID: 1010102692617434, guid: 45d5ca5806b3748d2bede60f29fb3dce,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

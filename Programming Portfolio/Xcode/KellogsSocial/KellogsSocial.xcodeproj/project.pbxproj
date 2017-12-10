@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B0CD3691E0A0E8100C367B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0CD3681E0A0E8100C367B2 /* AppDelegate.swift */; };
+		4B0CD36B1E0A0E8100C367B2 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0CD36A1E0A0E8100C367B2 /* SignInVC.swift */; };
+		4B0CD36E1E0A0E8100C367B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B0CD36C1E0A0E8100C367B2 /* Main.storyboard */; };
+		4B0CD3711E0A0E8100C367B2 /* KellogsSocial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B0CD36F1E0A0E8100C367B2 /* KellogsSocial.xcdatamodeld */; };
+		4B0CD3731E0A0E8100C367B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B0CD3721E0A0E8100C367B2 /* Assets.xcassets */; };
+		4B0CD3761E0A0E8100C367B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B0CD3741E0A0E8100C367B2 /* LaunchScreen.storyboard */; };
+		4B31B8581E12135400863A7C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B31B8571E12135400863A7C /* DataService.swift */; };
+		4B31B85A1E1321D900863A7C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B31B8591E1321D900863A7C /* Post.swift */; };
+		4B49DAF51E0C978200023034 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49DAF31E0C978200023034 /* KeychainItemAccessibility.swift */; };
+		4B49DAF61E0C978200023034 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49DAF41E0C978200023034 /* KeychainWrapper.swift */; };
+		4B49DAF81E0C9C3700023034 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49DAF71E0C9C3700023034 /* FeedVC.swift */; };
+		4B4DBF731E0B69A9002FB7DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B4DBF721E0B69A9002FB7DD /* GoogleService-Info.plist */; };
+		4B7916CD1E108C0800EF3878 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7916CC1E108C0800EF3878 /* PostCell.swift */; };
+		4B898E221E0B4897001B837D /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B898E211E0B4897001B837D /* CustomView.swift */; };
+		4B898E251E0B491C001B837D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B898E241E0B491C001B837D /* Constants.swift */; };
+		4B898E271E0B4B1B001B837D /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B898E261E0B4B1B001B837D /* RoundButton.swift */; };
+		4B898E291E0B4CA3001B837D /* CustomField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B898E281E0B4CA3001B837D /* CustomField.swift */; };
+		4B898E2B1E0B4E7E001B837D /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B898E2A1E0B4E7E001B837D /* SignInButton.swift */; };
+		F321D6068D60BBA85C0B3381 /* Pods_KellogsSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFBC36EFB5C5E9671EFEFD /* Pods_KellogsSocial.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B0CD3651E0A0E8100C367B2 /* KellogsSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KellogsSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0CD3681E0A0E8100C367B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B0CD36A1E0A0E8100C367B2 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		4B0CD36D1E0A0E8100C367B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B0CD3701E0A0E8100C367B2 /* KellogsSocial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KellogsSocial.xcdatamodel; sourceTree = "<group>"; };
+		4B0CD3721E0A0E8100C367B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B0CD3751E0A0E8100C367B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B0CD3771E0A0E8100C367B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B31B8571E12135400863A7C /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		4B31B8591E1321D900863A7C /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		4B49DAF31E0C978200023034 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		4B49DAF41E0C978200023034 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		4B49DAF71E0C9C3700023034 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		4B4DBF711E0B5D85002FB7DD /* KellogsSocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KellogsSocial.entitlements; sourceTree = "<group>"; };
+		4B4DBF721E0B69A9002FB7DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4B7916CC1E108C0800EF3878 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		4B898E211E0B4897001B837D /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		4B898E241E0B491C001B837D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4B898E261E0B4B1B001B837D /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		4B898E281E0B4CA3001B837D /* CustomField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomField.swift; sourceTree = "<group>"; };
+		4B898E2A1E0B4E7E001B837D /* SignInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
+		50EFBC36EFB5C5E9671EFEFD /* Pods_KellogsSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KellogsSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6953F3616AB956B48292BE33 /* Pods-KellogsSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KellogsSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KellogsSocial/Pods-KellogsSocial.debug.xcconfig"; sourceTree = "<group>"; };
+		779A3E98704E5EF4B904AB6D /* Pods-KellogsSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KellogsSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-KellogsSocial/Pods-KellogsSocial.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B0CD3621E0A0E8100C367B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F321D6068D60BBA85C0B3381 /* Pods_KellogsSocial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28349EF889CBB609DAB9466A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50EFBC36EFB5C5E9671EFEFD /* Pods_KellogsSocial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B0CD35C1E0A0E8100C367B2 = {
+			isa = PBXGroup;
+			children = (
+				4B0CD3671E0A0E8100C367B2 /* KellogsSocial */,
+				4B0CD3661E0A0E8100C367B2 /* Products */,
+				56087A69FDDC2664190E8BC6 /* Pods */,
+				28349EF889CBB609DAB9466A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B0CD3661E0A0E8100C367B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B0CD3651E0A0E8100C367B2 /* KellogsSocial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B0CD3671E0A0E8100C367B2 /* KellogsSocial */ = {
+			isa = PBXGroup;
+			children = (
+				4B31B8561E12133900863A7C /* Services */,
+				4B4DBF711E0B5D85002FB7DD /* KellogsSocial.entitlements */,
+				4B898E231E0B4909001B837D /* Utilities */,
+				4B898E131E0A120E001B837D /* Controller */,
+				4B898E121E0A120A001B837D /* View */,
+				4B898E111E0A1205001B837D /* Model */,
+				4B0CD3681E0A0E8100C367B2 /* AppDelegate.swift */,
+				4B0CD36C1E0A0E8100C367B2 /* Main.storyboard */,
+				4B0CD3721E0A0E8100C367B2 /* Assets.xcassets */,
+				4B0CD3741E0A0E8100C367B2 /* LaunchScreen.storyboard */,
+				4B0CD3771E0A0E8100C367B2 /* Info.plist */,
+				4B0CD36F1E0A0E8100C367B2 /* KellogsSocial.xcdatamodeld */,
+				4B4DBF721E0B69A9002FB7DD /* GoogleService-Info.plist */,
+			);
+			path = KellogsSocial;
+			sourceTree = "<group>";
+		};
+		4B31B8561E12133900863A7C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4B31B8571E12135400863A7C /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		4B898E111E0A1205001B837D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B31B8591E1321D900863A7C /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4B898E121E0A120A001B837D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B898E211E0B4897001B837D /* CustomView.swift */,
+				4B898E261E0B4B1B001B837D /* RoundButton.swift */,
+				4B898E281E0B4CA3001B837D /* CustomField.swift */,
+				4B898E2A1E0B4E7E001B837D /* SignInButton.swift */,
+				4B7916CC1E108C0800EF3878 /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4B898E131E0A120E001B837D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B0CD36A1E0A0E8100C367B2 /* SignInVC.swift */,
+				4B49DAF71E0C9C3700023034 /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4B898E231E0B4909001B837D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4B898E241E0B491C001B837D /* Constants.swift */,
+				4B49DAF31E0C978200023034 /* KeychainItemAccessibility.swift */,
+				4B49DAF41E0C978200023034 /* KeychainWrapper.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		56087A69FDDC2664190E8BC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6953F3616AB956B48292BE33 /* Pods-KellogsSocial.debug.xcconfig */,
+				779A3E98704E5EF4B904AB6D /* Pods-KellogsSocial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B0CD3641E0A0E8100C367B2 /* KellogsSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B0CD37A1E0A0E8100C367B2 /* Build configuration list for PBXNativeTarget "KellogsSocial" */;
+			buildPhases = (
+				0C7080F75DDC0D79CEBF7D64 /* [CP] Check Pods Manifest.lock */,
+				4B0CD3611E0A0E8100C367B2 /* Sources */,
+				4B0CD3621E0A0E8100C367B2 /* Frameworks */,
+				4B0CD3631E0A0E8100C367B2 /* Resources */,
+				5C0007800A4F8A80810D2DE6 /* [CP] Embed Pods Frameworks */,
+				0D7ED4D3A2B6425D2700EE65 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KellogsSocial;
+			productName = KellogsSocial;
+			productReference = 4B0CD3651E0A0E8100C367B2 /* KellogsSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B0CD35D1E0A0E8100C367B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kel Robertson";
+				TargetAttributes = {
+					4B0CD3641E0A0E8100C367B2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = EFBLS9ZUN2;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4B0CD3601E0A0E8100C367B2 /* Build configuration list for PBXProject "KellogsSocial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B0CD35C1E0A0E8100C367B2;
+			productRefGroup = 4B0CD3661E0A0E8100C367B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B0CD3641E0A0E8100C367B2 /* KellogsSocial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B0CD3631E0A0E8100C367B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0CD3761E0A0E8100C367B2 /* LaunchScreen.storyboard in Resources */,
+				4B0CD3731E0A0E8100C367B2 /* Assets.xcassets in Resources */,
+				4B0CD36E1E0A0E8100C367B2 /* Main.storyboard in Resources */,
+				4B4DBF731E0B69A9002FB7DD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C7080F75DDC0D79CEBF7D64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0D7ED4D3A2B6425D2700EE65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KellogsSocial/Pods-KellogsSocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C0007800A4F8A80810D2DE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KellogsSocial/Pods-KellogsSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B0CD3611E0A0E8100C367B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B898E271E0B4B1B001B837D /* RoundButton.swift in Sources */,
+				4B31B8581E12135400863A7C /* DataService.swift in Sources */,
+				4B898E2B1E0B4E7E001B837D /* SignInButton.swift in Sources */,
+				4B49DAF81E0C9C3700023034 /* FeedVC.swift in Sources */,
+				4B898E251E0B491C001B837D /* Constants.swift in Sources */,
+				4B31B85A1E1321D900863A7C /* Post.swift in Sources */,
+				4B898E291E0B4CA3001B837D /* CustomField.swift in Sources */,
+				4B0CD3711E0A0E8100C367B2 /* KellogsSocial.xcdatamodeld in Sources */,
+				4B49DAF51E0C978200023034 /* KeychainItemAccessibility.swift in Sources */,
+				4B898E221E0B4897001B837D /* CustomView.swift in Sources */,
+				4B0CD36B1E0A0E8100C367B2 /* SignInVC.swift in Sources */,
+				4B0CD3691E0A0E8100C367B2 /* AppDelegate.swift in Sources */,
+				4B49DAF61E0C978200023034 /* KeychainWrapper.swift in Sources */,
+				4B7916CD1E108C0800EF3878 /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B0CD36C1E0A0E8100C367B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B0CD36D1E0A0E8100C367B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B0CD3741E0A0E8100C367B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B0CD3751E0A0E8100C367B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B0CD3781E0A0E8100C367B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B0CD3791E0A0E8100C367B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B0CD37B1E0A0E8100C367B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6953F3616AB956B48292BE33 /* Pods-KellogsSocial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KellogsSocial/KellogsSocial.entitlements;
+				DEVELOPMENT_TEAM = EFBLS9ZUN2;
+				INFOPLIST_FILE = KellogsSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelrobertson.KellogsSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B0CD37C1E0A0E8100C367B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 779A3E98704E5EF4B904AB6D /* Pods-KellogsSocial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KellogsSocial/KellogsSocial.entitlements;
+				DEVELOPMENT_TEAM = EFBLS9ZUN2;
+				INFOPLIST_FILE = KellogsSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelrobertson.KellogsSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B0CD3601E0A0E8100C367B2 /* Build configuration list for PBXProject "KellogsSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0CD3781E0A0E8100C367B2 /* Debug */,
+				4B0CD3791E0A0E8100C367B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B0CD37A1E0A0E8100C367B2 /* Build configuration list for PBXNativeTarget "KellogsSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0CD37B1E0A0E8100C367B2 /* Debug */,
+				4B0CD37C1E0A0E8100C367B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B0CD36F1E0A0E8100C367B2 /* KellogsSocial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B0CD3701E0A0E8100C367B2 /* KellogsSocial.xcdatamodel */,
+			);
+			currentVersion = 4B0CD3701E0A0E8100C367B2 /* KellogsSocial.xcdatamodel */;
+			path = KellogsSocial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4B0CD35D1E0A0E8100C367B2 /* Project object */;
+}

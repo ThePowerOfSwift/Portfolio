@@ -1,0 +1,9 @@
+{
+  "commitish" : "2.2.1",
+  "iOS" : [
+    {
+      "hash" : "7b79e16e422c1a010bed6d1e2e3ce4cefefdfde02695d1702df9a71032726c2c",
+      "name" : "Kanna"
+    }
+  ]
+}

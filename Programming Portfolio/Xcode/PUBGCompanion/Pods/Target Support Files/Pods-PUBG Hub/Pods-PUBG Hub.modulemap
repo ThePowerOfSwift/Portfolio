@@ -1,0 +1,6 @@
+framework module Pods_PUBG_Hub {
+  umbrella header "Pods-PUBG Hub-umbrella.h"
+
+  export *
+  module * { export * }
+}

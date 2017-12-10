@@ -1,0 +1,110 @@
+PODS:
+  - Alamofire (4.5.1)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
+  - BTNavigationDropdownMenu (0.4.1)
+  - DropDown (2)
+  - FLAnimatedImage (1.0.12)
+  - Google-Mobile-Ads-SDK (7.25.0)
+  - GoogleAPIClientForREST/Core (1.3.1):
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAPIClientForREST/YouTube (1.3.1):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleSignIn (4.1.1):
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GoogleToolboxForMac/NSString+URLArguments (~> 2.1)
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.3):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
+  - GTMOAuth2 (1.1.5):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.12):
+    - GTMSessionFetcher/Full (= 1.1.12)
+  - GTMSessionFetcher/Core (1.1.12)
+  - GTMSessionFetcher/Full (1.1.12):
+    - GTMSessionFetcher/Core (= 1.1.12)
+  - Kanna (2.1.1)
+  - LUExpandableTableView (2.1.0)
+  - NVActivityIndicatorView (4.0.0):
+    - NVActivityIndicatorView/Presenter (= 4.0.0)
+  - NVActivityIndicatorView/Presenter (4.0.0)
+  - Pageboy (2.0.2)
+  - PureLayout (3.0.2)
+  - RevealingSplashView (0.4.0)
+  - SDWebImage/Core (4.1.2)
+  - SDWebImage/GIF (4.1.2):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+  - Siren (2.0.8)
+  - SwiftGifOrigin (1.6.1)
+  - SwiftyJSON (3.1.4)
+  - Tabman (1.0.5):
+    - Pageboy (~> 2.0.0)
+    - PureLayout (~> 3.0.0)
+  - YouTubePlayer (0.4.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - AlamofireImage (~> 3.3)
+  - BTNavigationDropdownMenu
+  - DropDown
+  - Google-Mobile-Ads-SDK
+  - GoogleAPIClientForREST/YouTube
+  - GoogleSignIn
+  - Kanna (~> 2.1.0)
+  - LUExpandableTableView (~> 2.1)
+  - NVActivityIndicatorView
+  - RevealingSplashView
+  - SDWebImage/GIF
+  - Siren (from `https://github.com/ArtSabintsev/Siren.git`, branch `swift3.1`)
+  - SwiftGifOrigin (~> 1.6.1)
+  - SwiftyJSON (~> 3.1.4)
+  - Tabman (~> 1.0)
+  - YouTubePlayer
+
+EXTERNAL SOURCES:
+  Siren:
+    :branch: swift3.1
+    :git: https://github.com/ArtSabintsev/Siren.git
+
+CHECKOUT OPTIONS:
+  Siren:
+    :commit: 51eb58d236c6e45922432cede7e9806a7bc1cc36
+    :git: https://github.com/ArtSabintsev/Siren.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  BTNavigationDropdownMenu: 093f3cbfad1572f2c222bdf8d17584d1e13380d4
+  DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  Google-Mobile-Ads-SDK: 113804f266381a30f982ad3c18063d4e0155414f
+  GoogleAPIClientForREST: d18c6704317d6d5c56d70f724f8990eb125359a4
+  GoogleSignIn: 3fdaa34a2ba04dbd7a25d7db39aecb0da98d5bdc
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  GTMOAuth2: be83fd28d63ae3087e7d351b1f39c1a7e24ab6e7
+  GTMSessionFetcher: ebaa1f79a5366922c1735f1566901f50beba23b7
+  Kanna: 9b4b086c218703f2b94f5b21a466217dd2f9332e
+  LUExpandableTableView: b4896516a813f13e49c2c1b319775fdddf916b9e
+  NVActivityIndicatorView: 54c9b93b6f25a4f467512680c0c90c09a1095cf2
+  Pageboy: d5b9fe9a59202674c44111e513e67ccc680e18b7
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  RevealingSplashView: 72be158ad5e1bc72713e8f78383dc3e1803ce4d1
+  SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
+  Siren: 4269fa935d0d890ba57ca7cce0569cc285456ca9
+  SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  Tabman: 9f87244fdbbd070fe6a518f445880b2b4a56ea1b
+  YouTubePlayer: 028451f6772f372d4759866db99824c676ac1473
+
+PODFILE CHECKSUM: 27761f587120cb2a2fee8ffdc882956fcf7e58f0
+
+COCOAPODS: 1.3.1

@@ -1,0 +1,6 @@
+framework module Pods_KellogsSocial {
+  umbrella header "Pods-KellogsSocial-umbrella.h"
+
+  export *
+  module * { export * }
+}

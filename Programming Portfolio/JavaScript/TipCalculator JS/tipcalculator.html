@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tip Calculator</title>
+        <!-- nomarlize.css -->
+        <link href="normalize.css" rel="stylesheet" type="text/css">
+        <!-- custom styles -->
+        <link href="style.css" rel="stylesheet" type="text/css">
+                <!--[if IE]>
+<script src=“http://html5shim.googlecode.com/svn/trunk/html5.js”>
+</script>
+<![endif]-->
+    </head>
+    <body>
+        
+        <div id="container">
+            <h1>Tip Calculator</h1>
+            <div id="calculator">
+                
+                <form>
+                    <label>How Much Was Your Bill<br>
+                    $ <input type="text" id="billAmount">
+                        </label>
+                    <label>How was your service?<br>
+                        <select id="serviceQuality">
+                            <option disabled selected>-- Choose and option --</option>
+                            <option value="0.3">30% - Excellent service</option>
+                            <option value="0.2">20% - It was nice</option> 
+                            <option value="0.10">10% - A bit average...</option>
+                            <option value="0.05">5% - Not coming back!</option>
+                            
+                        </select>
+                        </label>
+                    <label>How many people are sharing the bill?<br>
+                        <input type="text" id="totalPeople"> People
+                    </label>
+                    
+                    <button type="button" id="calculate">Calculate</button>
+                </form>
+                
+            </div><!-- end Calculator -->
+            <div id="totalTip">
+                <sup>$</sup><span id="tip">0.00</span>
+                <small id="each">each</small>
+            </div>
+        </div><!-- end Container -->
+        <footer>
+            <small> &copy; Kel Robertson 2016</small>
+        </footer>
+          <script type="text/javascript" src="script.js">
+        </script>  
+    </body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "kchat",
+  "version": "1.0.0",
+  "description": "node server for firebase push notifications",
+  "main": "server.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Kel Robertson",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "4.0.6",
+    "request": "2.79.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelrobertson/KChatAppSerevr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kelrobertson/KChatAppSerevr/issues"
+  },
+  "homepage": "https://github.com/kelrobertson/KChatAppSerevr#readme"
+}

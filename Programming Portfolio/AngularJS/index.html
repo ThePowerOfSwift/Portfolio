@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+       <link href="css/styles.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">   
+   
+      <title>ngCribs</title>
+  </head>
+  <body ng-app="ngCribs" ng-controller="cribsController">
+      
+      <!-- NavBar -->
+      <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+          <div class="navbar-header">
+          <a class="navbar-brand" href="#">ng-gribs</a>
+          </div>
+          </div>
+      </nav>
+      <div class="container">
+      <div class="col-sm-12 price-form">
+        <div class="col-sm-6">
+          <div class="input-group">
+              <span class="input-group-addon">Min Price</span>
+              <select name="minPrice" id="minPrice" ng-model="priceInfo.min" class="form-control">
+                  <option value="100000">$100,000</option>
+                  <option value="200000">$200,000</option>
+                  <option value="300000">$300,000</option>
+                  <option value="400000">$400,000</option>
+                  <option value="500000">$500,000</option>
+                  <option value="600000">$600,000</option>
+                  <option value="700000">$700,000</option>
+                  <option value="800000">$800,000</option>
+                  <option value="900000">$900,000</option>
+                  <option value="1000000">$1,000,000</option>
+              </select>
+          </div>
+        </div>
+          <div class="col-sm-6">
+          <div class="input-group">
+              <span class="input-group-addon">Max Price</span>
+              <select name="maxPrice" id="maxPrice" ng-model="priceInfo.max" class="form-control">
+                  <option value="100000">$100,000</option>
+                  <option value="200000">$200,000</option>
+                  <option value="300000">$300,000</option>
+                  <option value="400000">$400,000</option>
+                  <option value="500000">$500,000</option>
+                  <option value="600000">$600,000</option>
+                  <option value="700000">$700,000</option>
+                  <option value="800000">$800,000</option>
+                  <option value="900000">$900,000</option>
+                  <option value="1000000">$1,000,000</option>
+              </select>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="container">
+        <div class="col-sm-4" ng-repeat="crib in cribs | cribsFilter:priceInfo">
+            <div class="thumbnail">
+                <img ng-src="images/{{crib.image}}.jpg" alt="">
+                <div class="caption">
+                    
+                    <div ng-hide="showDetails === true">
+                        <h3><i class="glyphicon glyphicon-tag"></i>{{crib.price|currency}}</h3>
+                        <h4><i class="glyphicon glyphicon-home"></i>{{crib.address}}
+                        <span class="label label-primary label-sm">{{crib.type}}</span></h4>
+                    </div>
+                    
+                    <button class="btn btn-xs btn-success" ng-hide="showDetails === true" ng-click="showDetails = !showDetails">Details</button>
+                     <button class="btn btn-xs btn-danger" ng-show="showDetails === true" ng-click="showDetails = !showDetails">Close</button>
+                    
+                    <div class="details" ng-show="showDetails === true">
+                         <h4>
+                        <span class="label label-primary">Bed: {{crib.details.bedrooms}}</span>
+                        <span class="label label-primary">Bath: {{crib.details.bathrooms}}</span>
+                        <span class="label label-primary">SqFt: {{crib.details.area}}</span>
+                        </h4>
+                        <p>{{crib.description}}</p>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+      </div>
+
+  </body>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.3/ui-bootstrap.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.3/ui-bootstrap-tpls.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/cribsController.js"></script>
+    <script src="scripts/cribsFactory.js"></script>
+    <script src="scripts/cribsFilter.js"></script>
+    
+</html>
+<!-- =========================================
+Below we are uing ng-repeat to loop through the array of data 'ng-repeat="crib in cribs"' defined in the cribsController.js and then assigning a selector to the initial "crib" $scope, we display the information in seperate nice looking sections.
+
+the "|" symbol indicatate an angularJS filter that can be applied ie "crib.price | currency" will format the data as a dollar value.
+                                        
+
+     <div class="well" ng-repeat="crib in cribs">
+          <h3>{{crib.address}}</h3>
+          <p><strong>Type:</strong> {{crib.type}}</p>
+          <p><strong>Description:</strong> {{crib.description}}</p>
+          <p><strong>Price:</strong> {{crib.price | currency}}</p>
+      </div>
+
+
+============================================== -->

@@ -1,0 +1,1626 @@
+{
+"Consumables":[
+ {
+   "title": "Adrenaline Syringe",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Eb6K7VP7--/c_fill,h_120,q_auto,w_120/ILMYZmmSp1UWl7YYLSAN",
+   "desc": "Adrenaline Syringes increase a character's boost by 100 instantly. Performing certain actions while casting this item will cancel it.",
+   "castTime": "8 seconds cast time"
+ },
+ {
+   "title": "Energy Drink",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--xJzfdHgz--/c_fill,h_120,q_auto,w_120/OKFiZDgkTbcTVYrdgGD2",
+   "desc": "Energy Drinks increase a character's boost by 40 instantly. Performing certain actions while casting this item will cancel it.",
+   "castTime": "4 seconds cast time"
+ },
+ {
+   "title": "Painkiller",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--YxTJ4nNL--/c_fill,h_120,q_auto,w_120/enfyPGsCrdRlMIRtLC7U",
+   "desc": "Painkillers increase a character's boost by 60 instantly. Performing certain actions while casting this item will cancel it.",
+   "castTime": "6 seconds cast time"
+ },
+ {
+   "title": "Bandage",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--fcYMpUgY--/c_fill,h_120,q_auto,w_120/30Tbcu0LAIetqn1RGBy8",
+   "desc": "Bandages heal a character's health by 10 overtime. Performing certain actions while casting this item will cancel it. It cannot heal character's health over 75.",
+   "castTime": "4 seconds cast time"
+ },
+ {
+   "title": "First Aid Kit",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--7iQS0KMu--/c_fill,h_120,q_auto,w_120/dlFXU9TX0uWwJzJM6oYt",
+   "desc": "First Aid Kits heal a character's health to 75 instantly. Performing certain actions while casting this item will cancel it. This item cannot be used when player's health is over 75.",
+   "castTime": "6 seconds cast time"
+ },
+ {
+   "title": "Med Kit",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--oyLYFWf8--/c_fill,h_120,q_auto,w_120/rhABWCBRV0cN7K1mWvCF",
+   "desc": "Med Kits heal a character's health to 100 instantly. Performing certain actions while casting this item will cancel it.",
+   "castTime": "8 seconds cast time"
+ },
+ {
+   "title": "Gas Can",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Nkp27Osp--/c_fill,h_120,q_auto,w_120/rPUY7cy8tgxpiYU6ngDv",
+   "desc": "You can refuel vehicles with it.",
+   "castTime": "3 seconds cast time"
+ }
+],
+"Ammo":[{
+        "aTitle": "12 Gauge",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--kiXU_oJq--/c_fill,h_120,q_auto,w_120/MwhppWKfABME0lGSMaDP",
+        "desc": "Ammo for S1897, S686, S12K"
+      },{
+        "aTitle": ".300 Magnum",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--BPwIJVwo--/c_fill,h_120,q_auto,w_120/UeW1iDHLQ2imZJsBpBaI",
+        "desc": "Ammo for AWM"
+      },{
+        "aTitle": ".45mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--mmkWcWdb--/c_fill,h_120,q_auto,w_120/nvlHeenDWqpECBPKPzg7",
+        "desc": "Ammo for P1911, Tommy Gun, Vector"
+      },{
+        "aTitle": "7.62mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--MUMTtAWL--/c_fill,h_120,q_auto,w_120/R4qKIpSiyJ7f7hiJC5Mw",
+        "desc": "Ammo for R1895, AKM, Groza, Kar98k, M24, SKS, Mk14"
+      },{
+        "aTitle": "9mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--h6O9RE-E--/c_fill,h_120,q_auto,w_120/2H03x7KLixenRH06QpW2",
+        "desc": "Ammo for P92, Micro Uzi, UMP9, VSS"
+      },{
+        "aTitle": "5.56mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--b3qI1y7r--/c_fill,h_120,q_auto,w_120/o9HDXDFZEw6H8oqzUDcP",
+        "desc": "Ammo for M16A4, M416, SCAR-L, M249"
+      },
+      {
+        "aTitle": "Bolt",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s---uMJThn2--/c_fill,h_120,q_auto,w_120/kramIyhXRYyADBiZ8H9K",
+        "desc": "Ammo for Crossbow"
+      }
+    ],
+"Attachments": [
+ {
+   "title": "Choke for S1897, S686",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--0gTOZ2qX--/c_fill,h_60,q_auto,w_60/HGgNm6ZogE0msHHnrm09",
+   "desc": "Reduces the spread of shotgun pellets",
+   "val1": "-18.20% Shot Spread ",
+   "val2": "+15.40% Shot Speed",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Compensator for AKM, M16A4, M416, SCAR-L, S12K",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--9mX9Ks6---/c_fill,h_60,q_auto,w_60/ySCNxVRlnusZwapkUFw7",
+   "desc": "Slightly reduces horizontal recoil and reduces vertical recoil ",
+   "val1": "-25.00% Recoil Pattern",
+   "val2": "-10.00% Horizontal Recoil",
+   "val3": "-15.00% Vertical Recoil",
+   "val4": "-10.00% Spread Base",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Compensator for SMG",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--ZuoS30A5--/c_fill,h_60,q_auto,w_60/bvr8IXSwWaBfn7uua5OI",
+   "desc": "Slightly reduces horizontal recoil and reduces vertical recoil ",
+   "val1": "-25.00% Recoil Pattern",
+   "val2": "-20.00% Horizontal Recoil",
+   "val3": "-25.00% Vertical Recoil",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Compensator for M24, AWM, SKS, Kar98k, Mk14",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--GnLi4PQm--/c_fill,h_60,q_auto,w_60/Szc1hmBzLwlcHhmMOjnw",
+   "desc": "Slightly reduces horizontal recoil and reduces vertical recoil ",
+   "val1": "-25.00% Recoil Pattern",
+   "val2": "-20.00% Horizontal Recoil",
+   "val3": "-20.00% Vertical Recoil",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Flash Hider for AKM, M16A4, M416, SCAR-L, S12K",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Sc-g4m3i--/c_fill,h_60,q_auto,w_60/5vfI1HZ7fIMjo2xv9EaT",
+   "desc": "Eliminates muzzle flash and slightly reduces horizontal and vertical recoil",
+   "val1": "-10.00% Recoil Pattern",
+   "val2": "-10.00% Horizontal Recoil",
+   "val3": "-10.00% Vertical Recoil",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Flash Hider for SMG",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--YXqPRwUw--/c_fill,h_60,q_auto,w_60/urSgK6MhxIqvEo5OqsW1",
+   "desc": "Eliminates muzzle flash and slightly reduces horizontal and vertical recoil",
+   "val1": "-10.00% Recoil Pattern",
+   "val2": "-10.00% Horizontal Recoil",
+   "val3": "-10.00% Vertical Recoil",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Flash Hider for M24, AWM, SKS, Kar98k, Mk14",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--atOzBrOg--/c_fill,h_60,q_auto,w_60/W6BhRKxWGpiKzOaZcOIV",
+   "desc": "Eliminates muzzle flash and slightly reduces horizontal and vertical recoil",
+   "val1": "-10.00% Recoil Pattern",
+   "val2": "-10.00% Horizontal Recoil",
+   "val3": "-10.00% Vertical Recoil",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Suppressor for AR, S12K",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--c92fL0AV--/c_fill,h_60,q_auto,w_60/MX4D5BNLe1mfgPJi7vhn",
+   "desc": "Reduces a weapon’s sound to increase stealth",
+   "val1": "-5.00% Deviation",
+   "val2": "",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Suppressor for SMG",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--qNkZOgw_--/c_fill,h_60,q_auto,w_60/36u1DKOG7tU8kVjvTHXR",
+   "desc": "Reduces a weapon’s sound to increase stealth",
+   "val1": "-5.00% Deviation",
+   "val2": "",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Suppressor for Handgun",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--12Kchvuk--/c_fill,h_60,q_auto,w_60/jc8eDu4cmMC0nV5Uy6o6",
+   "desc": "Reduces a weapon’s sound to increase stealth",
+   "val1": "-5.00% Deviation",
+   "val2": "",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Suppressor for M24, AWM, SKS, Kar98k, Mk14",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--MzUBNfPj--/c_fill,h_60,q_auto,w_60/4k4PYs1HLnET0Ht4zXcs",
+   "desc": "Reduces a weapon’s sound to increase stealth",
+   "val1": "-5.00% Deviation",
+   "val2": "",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Angled Foregrip for M416, SCAR-L, UMP9, SKS, Mk14",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--5C-dKyay--/c_fill,h_60,q_auto,w_60/dgg5xvJHXUaS7h2QY42i",
+   "desc": "Slightly reduces horizontal and vertical recoil and makes switching to ADS faster",
+   "val1": "-20.00% Recoil Pattern",
+   "val2": "-20.00% Horizontal Recoil",
+   "val3": "+10.00% Faster ADS",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Vertical Foregrip for M416, SCAR-L, UMP9, Vector, SKS, Mk14",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--JdKfmmGB--/c_fill,h_60,q_auto,w_60/WSgkUL9uFmMzPrXr2jUX",
+   "desc": "Reduces horizontal recoil and makes switching to ADS faster",
+   "val1": "-20.00% Recoil Pattern",
+   "val2": "-15.00% Vertical Recoil",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Quiver for Crossbow",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--1kDdEFKe--/c_fill,h_60,q_auto,w_60/qeiZ68ex0be9JFOMeSGN",
+   "desc": "Attachable Weapon : Crossbow",
+   "val1": "-30.00% Reload Duration",
+   "val2": "",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Red Dot Sight",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--CkzpX0vC--/c_fill,h_60,q_auto,w_60/OaDYXx1poJHBDol5FH5w",
+   "desc": "Attachable Weapons: UMP9, Vector, P9, P1911, P18C, AKM, M16A4, M416, SCAR-L, Groza, SKS, S12K, M249, Kar98k, M24, Mk14,AWM, Crossbow",
+   "val1": "+20.00% Faster ADS",
+   "val2": "",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Dot Sight (Crossbow Default)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--qXaunYiR--/c_fill,h_60,q_auto,w_60/BbsLt5OhDtyCdRlBBwFz",
+   "desc": "Attachable Weapon: Crossbow",
+   "val1": "+20.00% Faster ADS",
+   "val2": "",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Holographic Sight",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--DCLv4br1--/c_fill,h_60,q_auto,w_60/NeNzWRqI40KdJs1PtF1w",
+   "desc": "Attachable Weapons: UMP9, Vector, AKM, M16A4, M416, SCAR-L, Groza, S12K, M249, Kar98k, M24, SKS, Mk14, AWM, Crossbow",
+   "val1": "+20.00% Faster ADS",
+   "val2": "",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "2x Aimpoint Scope",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--bFCcrvzy--/c_fill,h_60,q_auto,w_60/TU11YGPSxr7F1ywtg6Aj",
+   "desc": "Attachable Weapons: UMP9, Vector, AKM, M16A4, M416, SCAR-L, Groza, SKS, S12K, M249, Kar98k, M24, Mk14, AWM",
+   "val1": "1.80x Magnification",
+   "val2": "+10.00% Faster ADS",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "4x ACOG Scope",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--wK4RIQXL--/c_fill,h_60,q_auto,w_60/xTfnQWI0FsQYhoLJTaJ5",
+   "desc": "Attachable Weapons: UMP9, Vector, AKM, M16A4, M416, SCAR-L, Groza, S12K, M249, Kar98k, M24, SKS, Mk14, AWM",
+   "val1": "4.00x Magnification",
+   "val2": "",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "8x CQBSS Scope",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--9cCiCF74--/c_fill,h_60,q_auto,w_60/385kjGAtYoHjrxk8oaq6",
+   "desc": "Attachable Weapons: AKM, M16A4, M416, SCAR-L, SKS, S12K, M249, Kar98k, M24, SKS, Mk14, AWM",
+   "val1": "7.25x Magnification",
+   "val2": "",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "15x PM II Scope",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Xm6JFgNv--/c_fill,h_60,q_auto,w_60/71V4M4JJyjsyVKLMVuI2",
+   "desc": "Attachable Weapons: AKM, M16A4, M416, SCAR-L, S12K, M249, Kar98k, M24, SKS, Mk14, AWM",
+   "val1": "12.00x Magnification",
+   "val2": "",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Extended QuickDraw Mag for P9, P1911, P18C",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--o5NCehsY--/c_fill,h_60,q_auto,w_60/lfURzteoT54MHinw1KTS",
+   "desc": "Increases reload speed and magazine capacity ",
+   "val1": "-30.00% Reload Duration",
+   "val2": "P18C Size: 25 (17 Default)",
+   "val3": "P1911 Size: 12 (7 Default)",
+   "val4": "P92 Size: 20 (15 Default)",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "QuickDraw Mag for P9, P1911, P18C",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--DwxcOvE4--/c_fill,h_60,q_auto,w_60/PmR5lARVZOYhgEw1gqzp",
+   "desc": "Increases reload speed",
+   "val1": "-30.00% Reload Duration",
+   "val2": "",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Extended Mag for P9, P1911, P18C",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--17ymRgh---/c_fill,h_60,q_auto,w_60/YaPnnxs5eeZJ8kofQzEM",
+   "desc": "Increases magazine capacity",
+   "val1": "P18C Size: 25 (17 Default)",
+   "val2": "P1911 Size: 12 (7 Default)",
+   "val3": "P92 Size: 20 (15 Default)",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Extended Mag for Micro UZI, UMP9, Vector",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--vQgTLlCo--/c_fill,h_60,q_auto,w_60/QZ74FbS06dy0hQY83HMK",
+   "desc": "Increases magazine capacity",
+   "val1": "UZI Size: 35 (25 Default)",
+   "val2": "UMP Size: 40 (30 Default)",
+   "val3": "Vector Size: 25 (13 Default)",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "QuickDraw Mag for Micro UZI, UMP9, Vector",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--KX6irf08--/c_fill,h_60,q_auto,w_60/kTztWuI7Hj1MiZkkKv1u",
+   "desc": "Increases reload speed",
+   "val1": "-30.00% Reload Duration",
+   "val2": "",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Extended QuickDraw Mag for Micro UZI, UMP9, Vector",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Rg2Skqmv--/c_fill,h_60,q_auto,w_60/4Y7cyU515R40p8pAid3O",
+   "desc": "Increases reload speed and magazine capacity ",
+   "val1": "-30.00% Reload Duration",
+   "val2": "UZI Size: 35 (25 Default)",
+   "val3": "UMP Size: 40 (30 Default)",
+   "val4": "Vector Size: 25 (13 Default)",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Extended QuickDraw Mag for AR, S12K",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--PgXewqiV--/c_fill,h_60,q_auto,w_60/348eNbayrcdk5itx5h4C",
+   "desc": "Increases reload speed and magazine capacity ",
+   "val1": "-30.00% Reload Duration",
+   "val2": "AR Size: 40 (30 Default)",
+   "val3": "S12K Size: 8 (5 Default)",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "QuickDraw Mag for AR, S12K",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--o0yqAm3d--/c_fill,h_60,q_auto,w_60/o0ERpcZuCfZFlUjwPSH9",
+   "desc": "Increases reload speed",
+   "val1": "-30.00% Reload Duration",
+   "val2": "",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Extended Mag for AR, S12K",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Acw5SXTT--/c_fill,h_60,q_auto,w_60/mMN0C81Oy0dCBpAdGkpD",
+   "desc": "Increases magazine capacity",
+   "val1": "AR Size: 40 (30 Default)",
+   "val2": "S12K Size: 8 (5 Default)",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Extended Mag for M24, AWM, SKS, VSS, Mk14",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--dY6Larx---/c_fill,h_60,q_auto,w_60/sWkX079l95iuQa4jgcyl",
+   "desc": "Increases magazine capacity",
+   "val1": "M24 Size: 7 (5 Default)",
+   "val2": "AWM Size: 7 (5 Default)",
+   "val3": "SKS Size: 20 (10 Default)",
+   "val4": "Mk14 Size: 20 (10 Default)",
+   "val5": "VSS Size: 20 (10 Default)",
+   "val6": ""
+ },
+ {
+   "title": "Extended QuickDraw Mag for M24, AWM, SKS, VSS, Mk14",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--ZVecVMpI--/c_fill,h_60,q_auto,w_60/DDRqC2djClQoIvszyci5",
+   "desc": "Increases reload speed and magazine capacity ",
+   "val1": "-30.00% Reload Duration",
+   "val2": "M24 Size: 7 (5 Default)",
+   "val3": "AWM Size: 7 (5 Default)",
+   "val4": "SKS Size: 20 (10 Default)",
+   "val5": "Mk14 Size: 20 (10 Default)",
+   "val6": "VSS Size: 20 (10 Default)"
+ },
+ {
+   "title": "QuickDraw Mag for M24, AWM, SKS, VSS, Mk14",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--EtwWvKG3--/c_fill,h_60,q_auto,w_60/bbHr2ukkzVdn3HbChIi3",
+   "desc": "Increases reload speed",
+   "val1": "-30.00% Reload Duration",
+   "val2": "",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Bullet Loops for S1897, S686",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--HrybsNbn--/c_fill,h_60,q_auto,w_60/Lg2KNvHyzNhITxVgFkWB",
+   "desc": "Increases reload speed",
+   "val1": "-30.00% Reload Duration",
+   "val2": "",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Stock for Micro UZI",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--WZNc8gy8--/c_fill,h_60,q_auto,w_60/fPXmlfZ7WT50wpOCGTps",
+   "desc": "Makes recoil recovery faster and reduces weapon sway ",
+   "val1": "-20.00% Recoil Pattern",
+   "val2": "-20.00% Vertical Recoil",
+   "val3": "+15.00% Recoil Recovery",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Tactical Stock for M416, Vector",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--parQSSNG--/c_fill,h_60,q_auto,w_60/mETv6QwQknewqeANo4MH",
+   "desc": "Makes recoil recovery faster and reduces weapon sway ",
+   "val1": "-20.00% Recoil Pattern",
+   "val2": "+15.00% Recoil Recovery",
+   "val3": "-10.00% Animation Kick",
+   "val4": "-10.00% Sway",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Bullet Loops for Kar98k",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--orhIMdAp--/c_fill,h_60,q_auto,w_60/SMgfpD5UV5WBPB0DU95W",
+   "desc": "Increases reload speed",
+   "val1": "-50.00% Spread Base",
+   "val2": "-30.00% Reload Duration",
+   "val3": "",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ },
+ {
+   "title": "Cheek Pad for Sniper Rifle",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--ou3Ll43n--/c_fill,h_60,q_auto,w_60/u0XHeL6kutJG1yaLzzg6",
+   "desc": "Reduces recoil kick and sway",
+   "val1": "-20.00% Vertical Recoil",
+   "val2": "-20.00% Animation Kick",
+   "val3": "-15.00% Sway",
+   "val4": "",
+   "val5": "",
+   "val6": ""
+ }
+],
+"Equipment":[
+      {
+   "title": "Motorcycle Helmet (Green) (Level 1)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--vhhXNGj6--/c_fill,h_60,q_auto,w_60/S8QseMQffg3Ajabojgi9",
+   "capacityExt": "-",
+   "dmgReduction": "30%",
+   "durability": "80",
+   "weight": 40
+ },
+ {
+   "title": "Motorcycle Helmet (Grey) (Level 1)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--3Awtv29H--/c_fill,h_60,q_auto,w_60/Rig6UYIQt1E8HwvrkHve",
+   "capacityExt": "-",
+   "dmgReduction": "30%",
+   "durability": "80",
+   "weight": 40
+ },
+ {
+   "title": "Military Helmet (Desert Camo) (Level 2)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--iDf2gOUM--/c_fill,h_60,q_auto,w_60/zq4K5iTdMaus4jOhzCbB",
+   "capacityExt": "-",
+   "dmgReduction": "40%",
+   "durability": "150",
+   "weight": 50
+ },
+ {
+   "title": "Military Helmet (Woodland Camo) (Level 2)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--mUPnQMrV--/c_fill,h_60,q_auto,w_60/rIwYVbKCjSIFMvzfyrAr",
+   "capacityExt": "-",
+   "dmgReduction": "40%",
+   "durability": "150",
+   "weight": 50
+ },
+ {
+   "title": "Spetsnaz Helmet (Level 3)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--whmwSnwo--/c_fill,h_60,q_auto,w_60/h26rJzORyvC4sbbIzF5g",
+   "capacityExt": "-",
+   "dmgReduction": "55%",
+   "durability": "230",
+   "weight": 60
+ },
+      {
+   "title": "Police Vest (Level 1) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s---ZPKdJ6q--/c_fill,h_60,q_auto,w_60/A5WXXNqFmST97k39Iovi",
+   "capacityExt": "+50",
+   "dmgReduction": "30%",
+   "durability": "200",
+   "weight": 120
+ },
+ {
+   "title": "Police Vest (Level 2) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--vmGYOGxj--/c_fill,h_60,q_auto,w_60/qNtSfLypaIQy0biTW5th",
+   "capacityExt": "+50",
+   "dmgReduction": "40%",
+   "durability": "220",
+   "weight": 150
+ },
+ {
+   "title": "Military Vest (Level 3) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--eBQ6BgQm--/c_fill,h_60,q_auto,w_60/RSau9P0iCnZA5pfETg70",
+   "capacityExt": "+50",
+   "dmgReduction": "55%",
+   "durability": "250",
+   "weight": 180
+ },
+        {
+   "title": "Utility Belt",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--UGGKjQGN--/c_fill,h_60,q_auto,w_60/LGnFSKeHplu6PqudCSRj",
+   "capacityExt": "+50",
+   "dmgReduction": "0%",
+   "durability": "-",
+   "weight": 20
+ },
+          {
+   "title": "Ghillie Suit ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--mFUuf0mQ--/c_fill,h_60,q_auto,w_60/G6u3pmoZL9hgd2sRQ6t5",
+   "capacityExt": "+0",
+   "dmgReduction": "0%",
+   "durability": "-",
+   "weight": 100
+ },
+{
+   "title": "Backpack (Level 1) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--FdPnM9d6--/c_fill,h_60,q_auto,w_60/nCb7n2VRHuXBSwo5dTOi",
+   "capacityExt": "+150",
+   "dmgReduction": "-",
+   "durability": "-",
+   "weight": 400
+ },
+ {
+   "title": "Backpack (Level 1) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--PggpaWY6--/c_fill,h_60,q_auto,w_60/Mov6YVkKFEjeRg5vzsRB",
+   "capacityExt": "+150",
+   "dmgReduction": "-",
+   "durability": "-",
+   "weight": 400
+ },
+ {
+   "title": "Backpack (Level 2) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--HvPP9dAa--/c_fill,h_60,q_auto,w_60/70f5xDT9UYqhkPNKfNaJ",
+   "capacityExt": "+200",
+   "dmgReduction": "-",
+   "durability": "-",
+   "weight": 400
+ },
+ {
+   "title": "Backpack (Level 2) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--75ZOSLqu--/c_fill,h_60,q_auto,w_60/s61UKYscJrnsC6QaO0ZM",
+   "capacityExt": "+200",
+   "dmgReduction": "-",
+   "durability": "-",
+   "weight": 400
+ },
+ {
+   "title": "Backpack (Level 3) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--2d6GTMCj--/c_fill,h_60,q_auto,w_60/KHTscoLFcdi8CTRRsktY",
+   "capacityExt": "+250",
+   "dmgReduction": "-",
+   "durability": "-",
+   "weight": 400
+ },
+ {
+   "title": "Backpack (Level 3) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--TUiCNhyP--/c_fill,h_60,q_auto,w_60/q0lEdBLdPahpx44voi1p",
+   "capacityExt": "+250",
+   "dmgReduction": "-",
+   "durability": "-",
+   "weight": 400
+ },
+ {
+   "title": "Parachute ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--qm9epD7T--/c_fill,h_60,q_auto,w_60/TyS5eLPZBQY8MtzmzysO",
+   "capacityExt": "+0",
+   "dmgReduction": "-",
+   "durability": "-",
+   "weight": 400
+ }],
+"Cosmetics":[{
+   "title": "BR Cap",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--4tsXmhnD--/c_fill,h_60,q_auto,w_60/TAk70gwsAHhjktfZTjth"
+ },
+ {
+   "title": "Baseball cap",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--tD5b60dV--/c_fill,h_60,q_auto,w_60/a1JJL4oM7ninfgRloG2w"
+ },
+ {
+   "title": "Vintage Baseball Hat (White)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--m8wGmmUj--/c_fill,h_60,q_auto,w_60/5rieFEQlaqe8gYp3Qbgv"
+ },
+ {
+   "title": "Vintage Baseball Hat (Black)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--K9R4mcn---/c_fill,h_60,q_auto,w_60/3lX4Cf4ryYOAuSe11SfP"
+ },
+ {
+   "title": "Beanie",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--wC9JkwXj--/c_fill,h_60,q_auto,w_60/tIgHP9uo30b8uabZjwIK"
+ },
+ {
+   "title": "Patrol Cap",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--edvGAtZ8--/c_fill,h_60,q_auto,w_60/mE3f6QwiOUw9XrBBQw0o"
+ }, {
+   "title": "Glasses (Punk) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--RAE-6nsf--/c_fill,h_60,q_auto,w_60/IhUWhEKHS2hlltc8gj0Q"
+ },
+ {
+   "title": "Sunglasses ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--7M2yynYU--/c_fill,h_60,q_auto,w_60/sxkMxnWpqPdgOJ6BE0Vo"
+ },
+ {
+   "title": "Rimless Sunglasses",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--zuT_HIrI--/c_fill,h_60,q_auto,w_60/G0i9GJ8WtChf9uvF5uRc"
+ },
+ {
+   "title": "Protective Glasses",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--bpN6Gcta--/c_fill,h_60,q_auto,w_60/ioEjgLRvirUry0hmpYmR"
+ },
+ {
+   "title": "Aviator Goggles ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--JtigVsrG--/c_fill,h_60,q_auto,w_60/7K5OiZYsdIoBuycKu2q3"
+ },
+ {
+   "title": "Aviator Sunglasses ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--YiZZasSY--/c_fill,h_60,q_auto,w_60/IRoiyVsNpnkzk8PgaZyy"
+ },{
+   "title": "Gas Mask (Half) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--2mNE5zvH--/c_fill,h_60,q_auto,w_60/EqI0mY8fQOg8kKPrrSNs"
+ },
+ {
+   "title": "Gas Mask (Full) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--d4aypFVY--/c_fill,h_60,q_auto,w_60/LyrmCaq61bnFgU2Sx9BY"
+ },
+ {
+   "title": "Ballistic Mask",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--h65NAR44--/c_fill,h_60,q_auto,w_60/MHmMgOcDvDlrGoAtzNQ2"
+ },
+ {
+   "title": "PLAYERUNKNOWN's Bandana ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--A5yOLfr8--/c_fill,h_60,q_auto,w_60/3DaT9jYPMhtzyn3CyYmT"
+ },
+ {
+   "title": "Twitch Prime Balaclava ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--I4rWttQj--/c_fill,h_60,q_auto,w_60/y0Q51Vpn82i8KggbgVA8"
+ },{
+   "title": "School Shirt ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--okoBUdkC--/c_fill,h_60,q_auto,w_60/TE0l56sVxEdzyLUHm7ce"
+ },
+ {
+   "title": "BR T-shirt ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--X1cfkV2K--/c_fill,h_60,q_auto,w_60/XUIGARSZz0PJgivp7PW6"
+ },
+ {
+   "title": "School Shirt (Open) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Zk0ndIFi--/c_fill,h_60,q_auto,w_60/JRZze42pP3j7rEBd6TPI"
+ },
+ {
+   "title": "School Shirt ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--dKMxCPQB--/c_fill,h_60,q_auto,w_60/8xk4gCRx6lBMR5mi4mEt"
+ },
+ {
+   "title": "Tank-top (Charcoal) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--WOY_L3N3--/c_fill,h_60,q_auto,w_60/LG5u0knswSgBgXHfW5rO"
+ },
+ {
+   "title": "Dirty Tank-top (White) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--57Mv5xNy--/c_fill,h_60,q_auto,w_60/0GbgWMfuyLp1rf0pEsm7"
+ },
+ {
+   "title": "Developer's Shirt ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--EEbswvIk--/c_fill,h_60,q_auto,w_60/c4Q3ZuuCSITRywevgEU8"
+ },
+ {
+   "title": "Bloody Tank-top (White) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--vlISMlmb--/c_fill,h_60,q_auto,w_60/VceWfRwXSepgQl4G4yzI"
+ },
+ {
+   "title": "Dirty Tank-top (Grey) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--5mrg1lCi--/c_fill,h_60,q_auto,w_60/eWhbVpDPYjO8kOFmk4Dt"
+ },
+ {
+   "title": "Shirt (Black) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--lAT_2hq8--/c_fill,h_60,q_auto,w_60/kTDhKPB0PdrlHi2DTe97"
+ },
+ {
+   "title": "Bloody Shirt ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--_emArwAO--/c_fill,h_60,q_auto,w_60/Coiw4xxdRuoR08LDcjYU"
+ },
+ {
+   "title": "Floral Shirt ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--cQcW1U9W--/c_fill,h_60,q_auto,w_60/8PQGkjbyzb13hKDgiqDZ"
+ },
+ {
+   "title": "T-shirt (White) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Yw7MOWWj--/c_fill,h_60,q_auto,w_60/mlzhvqGXiROUraU3g9tE"
+ },
+ {
+   "title": "T-shirt (Red) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Q6OLwa-8--/c_fill,h_60,q_auto,w_60/t1EMazqdtzUV5FFLOF7M"
+ },
+ {
+   "title": "Shirt (White) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--nNPd_0JF--/c_fill,h_60,q_auto,w_60/hlITTiiB0AeQwTsfD6Gx"
+ },
+ {
+   "title": "T-shirt (Striped) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--q-ixOrUz--/c_fill,h_60,q_auto,w_60/CjWhOLDNrjlFKE75rfZC"
+ },
+ {
+   "title": "T-shirt (Grey) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--XuAIgs58--/c_fill,h_60,q_auto,w_60/bF6tj0kKB85gAnYodMMh"
+ },
+ {
+   "title": "Long Sleeved T-shirt (Black) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Ww0zaS6a--/c_fill,h_60,q_auto,w_60/IjbPj7arfvSOkslfRtMk"
+ },
+ {
+   "title": "Long Sleeved T-shirt (Striped) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--hv3Iuyn9--/c_fill,h_60,q_auto,w_60/1yD8Tpr15pUfDuAPtdmW"
+ },
+ {
+   "title": "Long Sleeved T-shirt (Light Blue) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s---3Z532sH--/c_fill,h_60,q_auto,w_60/TxUTxmqzRVGgEYZTHNae"
+ },
+ {
+   "title": "Poloneck shirt ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--3N9N_OZG--/c_fill,h_60,q_auto,w_60/EQp7Z18ZGdJABCcc9ymr"
+ },
+ {
+   "title": "Grey Shirt ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--3WFzhy6G--/c_fill,h_60,q_auto,w_60/TUa0SX6f73l8DDvBrhAn"
+ },
+ {
+   "title": "checked shirt (red)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Ir1tIR_A--/c_fill,h_60,q_auto,w_60/7aSHPinZgTacuUGY81KT"
+ },
+ {
+   "title": "matched Grey Shirt ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--k0Jacnrq--/c_fill,h_60,q_auto,w_60/5dQxw9gs9IihOnP3R4RS"
+ },
+ {
+   "title": "PandaTV T-Shirt",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--XkGPt642--/c_fill,h_60,q_auto,w_60/zlWMzhGBGcsv8LRy1BGs"
+ },
+ {
+   "title": "Laogong T-Shirt",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Mp79HEWi--/c_fill,h_60,q_auto,w_60/4ZNDxmLMS0CozTnkMpBi"
+ },
+ {
+   "title": "Twitch Prime Shirt ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--2Cbm_Uh7--/c_fill,h_60,q_auto,w_60/vUVRmKK0OSCcnUmBN237"
+ },
+ {
+   "title": "checked shirt (white)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--W7tlp5U9--/c_fill,h_60,q_auto,w_60/90PPOhvfcFq6JfMhTfhS"
+ },{
+   "title": "Punk Jacket (Black)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--czCn07BR--/c_fill,h_60,q_auto,w_60/klSQ8towYwT1fQFWwyb6"
+ },
+ {
+   "title": "Tracksuit Top ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--i6UTiqbK--/c_fill,h_60,q_auto,w_60/Yb8VEgBRk0kztqNmeZ8s"
+ },
+ {
+   "title": "School Jacket ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--U1vKi5lr--/c_fill,h_60,q_auto,w_60/yuGdlxDnFd6PGndlGXZ3"
+ },
+ {
+   "title": "Woman's Tuxedo Jacket (Purple) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--a6TJlFn_--/c_fill,h_60,q_auto,w_60/QWvpSIxla2DpeKMU7J1u"
+ },
+ {
+   "title": "Tracksuit Top (Yellow) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Iy1tJgPK--/c_fill,h_60,q_auto,w_60/E4CaGJjMACIWUnDKfyE8"
+ },
+ {
+   "title": "Mandarin Jacket (Blue) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--W6ASq0Dj--/c_fill,h_60,q_auto,w_60/UW7nwtwJKsCba8IruSfZ"
+ },
+ {
+   "title": "Mandarin Jacket (Black) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--KxtVb1Vz--/c_fill,h_60,q_auto,w_60/ClwuBAMfgIZBWAyGsWEl"
+ },
+ {
+   "title": "Padded Jacket (Urban)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--oBiNoNMO--/c_fill,h_60,q_auto,w_60/ypYls5CnnI3HNai9zSiA"
+ },
+ {
+   "title": "Padded Jacket (Purple) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--VqhHVuOi--/c_fill,h_60,q_auto,w_60/D8uiOnVBkoBeZSh54TrF"
+ },
+ {
+   "title": "Padded Jacket (Beige) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--mFvRkRVM--/c_fill,h_60,q_auto,w_60/mIj1RpphjW0SgmcUtjvq"
+ },
+ {
+   "title": "Padded Jacket (Camo) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--ORyErRus--/c_fill,h_60,q_auto,w_60/aVGGxaSoXI93vmQGNZfW"
+ },
+ {
+   "title": "Padded Jacket (khaki) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--C3RW4Opm--/c_fill,h_60,q_auto,w_60/GDYngBDMUF5DXD4i3Mjm"
+ },
+ {
+   "title": "Padded Jacket (GREY) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--bFvgtKRb--/c_fill,h_60,q_auto,w_60/GJRrNGvpfcVTL2XHb0DL"
+ },
+ {
+   "title": "Coat (Grey) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--KISOgd3o--/c_fill,h_60,q_auto,w_60/jW1IWOzUsWsAv8RVlGmA"
+ },
+ {
+   "title": "Coat (Camel) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--dhobjZH7--/c_fill,h_60,q_auto,w_60/boOYoAtlsOlw9GjE6Y17"
+ },
+ {
+   "title": "Sleeveless Biker Jacket ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--UXAUFJeo--/c_fill,h_60,q_auto,w_60/Qx4R8oS8CMaT4IMfnS2P"
+ },
+ {
+   "title": "Custom Trenchcoat ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--_GGz9YxZ--/c_fill,h_60,q_auto,w_60/MQ8V8H9wsKyeFKh8ndYu"
+ },
+ {
+   "title": "Partner's Jacket",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--tCyu7iwH--/c_fill,h_60,q_auto,w_60/pEfnYrXMLX7FCf880OvC"
+ },
+ {
+   "title": "Coat (Red) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--eWCMlSdL--/c_fill,h_60,q_auto,w_60/UZ1fkL0UGgrQNfgZub16"
+ },
+ {
+   "title": "PLAYERUNKNOWN'S Trenchcoat ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--2K82Tpw5--/c_fill,h_60,q_auto,w_60/zw46V1h5oJ7IecOBqBHO"
+ },
+ {
+   "title": "Coat ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Xae9Vq0Y--/c_fill,h_60,q_auto,w_60/tTI2JP2xG5PgyZEE4mP9"
+ },{
+   "title": "Fingerless Gloves (Leather) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--YvWU5XsD--/c_fill,h_60,q_auto,w_60/5U9rGTeiMugOCM4K3Wp0"
+ },
+ {
+   "title": "Fingerless Gloves (Tan)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--axOnnUHw--/c_fill,h_60,q_auto,w_60/JDwnKE42hyAYb7GdRihI"
+ },
+ {
+   "title": "Fingerless Gloves (Camo)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--aJIQadpX--/c_fill,h_60,q_auto,w_60/7LOMu1tNd8RNx7a2ywfo"
+ },{
+   "title": "Tracksuit Pants ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--cNN5R053--/c_fill,h_60,q_auto,w_60/i5SXwcZxSTicv6vK7u7u"
+ },
+ {
+   "title": "School Pants ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--OQ04cvC3--/c_fill,h_60,q_auto,w_60/2qfsL2f5bxPCMPYAKWWu"
+ },
+ {
+   "title": "School Skirt ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--dbHMV-0w--/c_fill,h_60,q_auto,w_60/y9d8oIeyfSQg0tKrDIsr"
+ },
+ {
+   "title": "Camo Hotpants ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--X49aH9e7--/c_fill,h_60,q_auto,w_60/Img9ooU1Jsn6Irway0Ef"
+ },
+ {
+   "title": "Hotpants (Blue)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Kox--pra--/c_fill,h_60,q_auto,w_60/UyeYeOC0LEZEgRBg1uT1"
+ },
+ {
+   "title": "Slacks (Purple) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--cwhsAF9k--/c_fill,h_60,q_auto,w_60/rKaJCDQrmgD1cbwAwosO"
+ },
+ {
+   "title": "Mini-skirt (Purple) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--P-i3ZEG4--/c_fill,h_60,q_auto,w_60/UHOxfSUu7gd6nQaXQVsz"
+ },
+ {
+   "title": "Tracksuit Pants (Yellow) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--AVziipDK--/c_fill,h_60,q_auto,w_60/zg3tB1Lruq8dJKHcBwzh"
+ },
+ {
+   "title": "Slacks (Blue) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--wVA_Rshl--/c_fill,h_60,q_auto,w_60/V4TAo204IHidmnVijazp"
+ },
+ {
+   "title": "Pleated Mini-skirt (Blue) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--avA36uXM--/c_fill,h_60,q_auto,w_60/GPrYm1v6N9QoYZq3Y3I8"
+ },
+ {
+   "title": "Slacks (Black) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--0iaCQ1Rn--/c_fill,h_60,q_auto,w_60/DmwkPsygbysiUkgy0LI5"
+ },
+ {
+   "title": "Combat Pants (White) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--hv4XWngF--/c_fill,h_60,q_auto,w_60/vgEGyfJ0iyAI8YbQtkH9"
+ },
+ {
+   "title": "Pleated Mini-skirt (Black) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--KQQfcHbV--/c_fill,h_60,q_auto,w_60/yQZ1tw5VAV44t2vIh8rq"
+ },
+ {
+   "title": "Combat Pants (khaki) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Ben5i1Hh--/c_fill,h_60,q_auto,w_60/LzVRvmefBTaOZkej3eG8"
+ },
+ {
+   "title": "Combat Pants (Brown) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--PxvuLoAu--/c_fill,h_60,q_auto,w_60/xQLiL1FZHzF6WJylEFDe"
+ },
+ {
+   "title": "Combat Pants (Blue) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--vuGoA9Pm--/c_fill,h_60,q_auto,w_60/s0jUPOKFCCVtLA6uSc4l"
+ },
+ {
+   "title": "Combat Pants (camo) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--SBzp3C0j--/c_fill,h_60,q_auto,w_60/3KIYNw0RjOz2j7D7BqjX"
+ },
+ {
+   "title": "Combat Pants (Grey Camo) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--oIaydN61--/c_fill,h_60,q_auto,w_60/pBqBf2DsL2YZIFlix7Pt"
+ },
+ {
+   "title": "Bloody Combat Pants ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--VAWfuRLU--/c_fill,h_60,q_auto,w_60/KaOT0rTVdToO2W7XGzcZ"
+ },
+ {
+   "title": "Combat Pants (Black) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--9Vvd30Rm--/c_fill,h_60,q_auto,w_60/gyLzZmGi7eZG8jSmu9MC"
+ },
+ {
+   "title": "Combat Pants (Black) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--89b577O0--/c_fill,h_60,q_auto,w_60/eiM8Xh9I951RPeW9UDsP"
+ },
+ {
+   "title": "Skinny Jeans (Blue) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--o4ddfv4o--/c_fill,h_60,q_auto,w_60/womvschPYCIxePnoZDpw"
+ },
+ {
+   "title": "Porket Pants (Khaki)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--ZyrpicvT--/c_fill,h_60,q_auto,w_60/8i7dp1CCJZfaVpodUHTm"
+ },
+ {
+   "title": "Porket Pants (Beige)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--LhPkJjWo--/c_fill,h_60,q_auto,w_60/DuFfdqepfXZHMiUg053E"
+ },
+ {
+   "title": "Porket Pants (Blue)",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--ONwET6gI--/c_fill,h_60,q_auto,w_60/7F9LYtOzJO3L60vulUxG"
+ },
+ {
+   "title": "Twitch Prime Combat Pants ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--ZD_dYBuV--/c_fill,h_60,q_auto,w_60/gwAkhXiaz7sEszdDzwpK"
+ },
+ {
+   "title": "Jeans (Tan) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--jUXIsoD8--/c_fill,h_60,q_auto,w_60/6wCSFg6aiSQMb9Ha7u8v"
+ },{
+   "title": "Boots (Punk) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--8WBsQn_o--/c_fill,h_60,q_auto,w_60/GFwc0yTodnq8aucB48rJ"
+ },
+ {
+   "title": "Sneakers (White) ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--zowNEour--/c_fill,h_60,q_auto,w_60/SXF3PuVSYsoeKFrzxCh4"
+ },
+ {
+   "title": "Bloody Sneakers ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--rQsxIMKK--/c_fill,h_60,q_auto,w_60/L5tSLuC8Lenb6QXeI0u5"
+ },
+ {
+   "title": "School Shoes ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--ilyoWOEJ--/c_fill,h_60,q_auto,w_60/2sgdXpGhi8pse9Y90LuZ"
+ },
+ {
+   "title": "Velcro Trainers ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--VHFqRl3U--/c_fill,h_60,q_auto,w_60/KNjTbBT7Xwfa7LunpUqF"
+ },
+ {
+   "title": "Working Boots ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Hpz_mO_D--/c_fill,h_60,q_auto,w_60/mjsiODO4kQKGvu9uaQcX"
+ },
+ {
+   "title": "Grey Boots",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--NJteAhaO--/c_fill,h_60,q_auto,w_60/u7ki7V7T5Fb7uY5oHyHc"
+ },
+ {
+   "title": "Hi-top Trainers ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--p6GD1opL--/c_fill,h_60,q_auto,w_60/eEYxctKB97J9Uf5lB9St"
+ },
+ {
+   "title": "Blue Hi-top Trainers",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--1qptEZVL--/c_fill,h_60,q_auto,w_60/3NhGIFjwFHSIvUDZ8ibg"
+ },
+ {
+   "title": "Brown Hi-top Trainers",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--Z1oN9rRn--/c_fill,h_60,q_auto,w_60/B3yAmRTlUiPZb9WtIdN8"
+ },
+ {
+   "title": "School Shoes ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--pqjzNf4U--/c_fill,h_60,q_auto,w_60/FugAGgjSBU9fI2vMj1PU"
+ },
+ {
+   "title": "Twitch Prime Boots ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--uKOvVBhJ--/c_fill,h_60,q_auto,w_60/BLA7bpAWpIdF94KpYQr5"
+ },
+ {
+   "title": "Slip-on Shoes ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--sg65hzuM--/c_fill,h_60,q_auto,w_60/OyOk74b3jQQZ3Q36tS4H"
+ },
+ {
+   "title": "Red Hi-top Trainers ",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--cLJv2qja--/c_fill,h_60,q_auto,w_60/9z7Z7mgAdzVLs0fC3uNe"
+ }],
+"Weapons":{
+  "AssaultRifles": [
+    {
+      "title": "AKM",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--HXkqiTaj--/c_fill,h_240,q_auto,w_240/jk8mBx4t07hl85hMsKfC",
+      "desc": "For comrades-in-arms.",
+      "hitDmg": 48,
+      "IBS": 715,
+      "BHIP": "10,000",
+      "zeroRange": "100 - 400",
+      "ammoPerMag": 30,
+      "TBS": "0.100s",
+      "firingModes": "SINGLE, AUTO",
+      "ammo": [{
+        "aTitle": "7.62mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--MUMTtAWL--/c_fill,h_120,q_auto,w_120/R4qKIpSiyJ7f7hiJC5Mw",
+        "desc": "Ammo for R1895, AKM, Groza, Kar98k, M24, SKS, Mk14"
+      }
+        ],
+      "reloadTime": "2.900s"
+    },
+    {
+      "title": "M416",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--dC5Tmhpb--/c_fill,h_240,q_auto,w_240/Tl6c8XETLgrUElw5M7sn",
+      "desc": "German do things properly.",
+      "hitDmg": 41,
+      "IBS": 880,
+      "BHIP": "3,500",
+      "zeroRange": "100 - 600",
+      "ammoPerMag": 30,
+      "TBS": "0.086s",
+      "firingModes": "SINGLE, AUTO",
+      "ammo": [{
+        "aTitle": "5.56mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--b3qI1y7r--/c_fill,h_120,q_auto,w_120/o9HDXDFZEw6H8oqzUDcP",
+        "desc": "Ammo for M16A4, M416, SCAR-L, M249, MINI 14"
+      }
+        ],
+      "reloadTime": "2.100s"
+    },
+    {
+      "title": "M16A4",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--BWWDJexr--/c_fill,h_240,q_auto,w_240/DoBoV7X5TgsdupOoT69T",
+      "desc": "Burstfire assault rifle.",
+      "hitDmg": 41,
+      "IBS": 900,
+      "BHIP": "8,000",
+      "zeroRange": "100 - 500",
+      "ammoPerMag": 30,
+      "TBS": "0.075s",
+      "firingModes": "SINGLE, BURST",
+      "ammo": [{
+        "aTitle": "5.56mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--b3qI1y7r--/c_fill,h_120,q_auto,w_120/o9HDXDFZEw6H8oqzUDcP",
+        "desc": "Ammo for M16A4, M416, SCAR-L, M249, MINI 14"
+      }
+        ],
+      "reloadTime": "2.200s"
+    },
+    {
+      "title": "SCAR-L",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--t5-flAe1--/c_fill,h_240,q_auto,w_240/kA4jimfT0AbOFyhqWUnJ",
+      "desc": "Modern assault rifle.",
+      "hitDmg": 41,
+      "IBS": 870,
+      "BHIP": "9,000",
+      "zeroRange": "100 - 600",
+      "ammoPerMag": 30,
+      "TBS": "0.096s",
+      "firingModes": "SINGLE, AUTO",
+      "ammo": [{
+        "aTitle": "5.56mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--b3qI1y7r--/c_fill,h_120,q_auto,w_120/o9HDXDFZEw6H8oqzUDcP",
+        "desc": "Ammo for M16A4, M416, SCAR-L, M249, MINI 14"
+      }
+        ],
+      "reloadTime": "2.200s"
+    },
+    {
+      "title": "Groza",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--iijpEeXv--/c_fill,h_240,q_auto,w_240/h2HPaeRS5Xcav96CHnbC",
+      "desc": "A selective fire Russian bullpup assault rifle chambered for a 7.62mm round.",
+      "hitDmg": 48,
+      "IBS": 715,
+      "BHIP": "10,000",
+      "zeroRange": "100 - 400",
+      "ammoPerMag": 30,
+      "TBS": "0.080s",
+      "firingModes": "SINGLE, AUTO",
+      "ammo": [{
+        "aTitle": "7.62mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--MUMTtAWL--/c_fill,h_120,q_auto,w_120/R4qKIpSiyJ7f7hiJC5Mw",
+        "desc": "Ammo for R1895, AKM, Groza, Kar98k, M24, SKS, Mk14"
+      }
+        ],
+      "reloadTime": "3.000s"
+    }
+  ],
+  "SniperRifles": [
+    {
+      "title": "VSS ",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--7_ZjdVZM--/c_fill,h_240,q_auto,w_240/0s87uA6c12L7CH4kyYVf",
+      "desc": "The VSS is a suppressed sniper rifle that uses a heavy subsonic 9mm cartridge.",
+      "hitDmg": 38,
+      "IBS": 330,
+      "BHIP": "20,000",
+      "zeroRange": "100 - 100",
+      "ammoPerMag": 10,
+      "TBS": "0.086s",
+      "firingModes": "SINGLE, AUTO",
+            "ammo": [{
+        "aTitle": "9mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--h6O9RE-E--/c_fill,h_120,q_auto,w_120/2H03x7KLixenRH06QpW2",
+        "desc": "Ammo for P92, Micro Uzi, UMP9, VSS"
+      }
+        ],
+      "reloadTime": "3.500s"
+    },
+        {
+      "title": "MINI 14",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--P2TZAHNK--/c_fill,h_240,q_auto,w_240/95AsmmWsRszjv2vwFcPQ",
+      "desc": "Semi-auto carbine.",
+      "hitDmg": 44,
+      "IBS": 990,
+      "BHIP": "10,000",
+      "zeroRange": "100 - 600",
+      "ammoPerMag": 20,
+      "TBS": "0.100s",
+      "firingModes": "SINGLE",
+      "ammo": [{
+        "aTitle": "5.56mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--b3qI1y7r--/c_fill,h_120,q_auto,w_120/o9HDXDFZEw6H8oqzUDcP",
+        "desc": "Ammo for M16A4, M416, SCAR-L, M249, MINI 14"
+      }
+        ],
+      "reloadTime": "2.100s"
+    },
+    {
+      "title": "SKS",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--N_GRcRm---/c_fill,h_240,q_auto,w_240/6sVxlwslEdZIPnmQ5OrH",
+      "desc": "Semi-auto Russian DMR rifle.",
+      "hitDmg": 55,
+      "IBS": 800,
+      "BHIP": "20,000",
+      "zeroRange": "100 - 800",
+      "ammoPerMag": 10,
+      "TBS": "0.090s",
+      "firingModes": "SINGLE",
+      "ammo": [{
+        "aTitle": "7.62mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--MUMTtAWL--/c_fill,h_120,q_auto,w_120/R4qKIpSiyJ7f7hiJC5Mw",
+        "desc": "Ammo for R1895, AKM, Groza, Kar98k, M24, SKS, Mk14"
+      }
+        ],
+      "reloadTime": "2.900s"
+    },
+    {
+      "title": "Mk14 EBR",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--YU06WxSJ--/c_fill,h_240,q_auto,w_240/fks4xrFf1Z12ym8S6EmY",
+      "desc": "Selective fire Designated Marksman Rifle originally built for use with units of USSOC such as Navy SEALs and Delta Force",
+      "hitDmg": 60,
+      "IBS": 853,
+      "BHIP": "20,000",
+      "zeroRange": "100 - 800",
+      "ammoPerMag": 10,
+      "TBS": "0.090s",
+      "firingModes": "SINGLE, AUTO",
+      "ammo": [{
+        "aTitle": "7.62mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--MUMTtAWL--/c_fill,h_120,q_auto,w_120/R4qKIpSiyJ7f7hiJC5Mw",
+        "desc": "Ammo for R1895, AKM, Groza, Kar98k, M24, SKS, Mk14"
+      }
+        ],
+      "reloadTime": "3.683s"
+    },
+    {
+      "title": "Karabiner 98 Kurz",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--seTmy-5p--/c_fill,h_240,q_auto,w_240/38WnDDlL6QEFCSXn5TAv",
+      "desc": "Vintage sniper rifle.",
+      "hitDmg": 72,
+      "IBS": 760,
+      "BHIP": "16,000",
+      "zeroRange": "100 - 600",
+      "ammoPerMag": 5,
+      "TBS": "1.900s",
+      "firingModes": "SINGLE",
+      "ammo": [{
+        "aTitle": "7.62mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--MUMTtAWL--/c_fill,h_120,q_auto,w_120/R4qKIpSiyJ7f7hiJC5Mw",
+        "desc": "Ammo for R1895, AKM, Groza, Kar98k, M24, SKS, Mk14"
+      }
+        ],
+      "reloadTime": "4.000s"
+    },
+    {
+      "title": "M24",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--5l4rwk56--/c_fill,h_240,q_auto,w_240/5CeMwA0UIwWwSlO4wJ03",
+      "desc": "Servicable sniper rifle.",
+      "hitDmg": 84,
+      "IBS": 790,
+      "BHIP": "20,000",
+      "zeroRange": "100 - 800",
+      "ammoPerMag": 5,
+      "TBS": "1.800s",
+      "firingModes": "SINGLE",
+      "ammo": [{
+        "aTitle": "7.62mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--MUMTtAWL--/c_fill,h_120,q_auto,w_120/R4qKIpSiyJ7f7hiJC5Mw",
+        "desc": "Ammo for R1895, AKM, Groza, Kar98k, M24, SKS, Mk14"
+      }
+        ],
+      "reloadTime": "4.200s"
+    },
+    {
+      "title": "AWM",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--MMValKTT--/c_fill,h_240,q_auto,w_240/U1j3qwpzDiL4TCpfjzBh",
+      "desc": "Monster sniper rifle.",
+      "hitDmg": 132,
+      "IBS": 910,
+      "BHIP": "40,000",
+      "zeroRange": "100 - 1000",
+      "ammoPerMag": 5,
+      "TBS": "1.850s",
+      "firingModes": "SINGLE",
+      "ammo": [{
+        "aTitle": ".300 Magnum",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--BPwIJVwo--/c_fill,h_120,q_auto,w_120/UeW1iDHLQ2imZJsBpBaI",
+        "desc": "Ammo for AWM"
+      }
+        ],
+      "reloadTime": "4.600s"
+    }
+  ],
+  "Pistols": [
+    {
+      "title": "P18C",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--9wKDF2mz--/c_fill,h_240,q_auto,w_240/u9Tww13OeVbIjXvAQgkp",
+      "desc": "An Austrian pistol with a full-auto mode and chambered for a 9mm round.",
+      "hitDmg": 19,
+      "IBS": 375,
+      "BHIP": "7,000",
+      "zeroRange": "25 - 25",
+      "ammoPerMag": 17,
+      "TBS": "0.060s",
+      "firingModes": "SINGLE, AUTO",
+      "ammo": [{
+        "aTitle": "9mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--h6O9RE-E--/c_fill,h_120,q_auto,w_120/2H03x7KLixenRH06QpW2",
+        "desc": "Ammo for P92, Micro Uzi, UMP9, VSS"
+      }
+        ],
+      "reloadTime": "2.000s"
+    },
+    {
+      "title": "P92",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--GxJQNycF--/c_fill,h_240,q_auto,w_240/URWP6AJkpuz84geMeRw7",
+      "desc": "Modest handgun.",
+      "hitDmg": 29,
+      "IBS": 380,
+      "BHIP": "7,000",
+      "zeroRange": "25 - 25",
+      "ammoPerMag": 15,
+      "TBS": "0.135s",
+      "firingModes": "SINGLE",
+      "ammo": [{
+        "aTitle": "9mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--h6O9RE-E--/c_fill,h_120,q_auto,w_120/2H03x7KLixenRH06QpW2",
+        "desc": "Ammo for P92, Micro Uzi, UMP9, VSS"
+      }
+        ],
+      "reloadTime": "2.000s"
+    },
+    {
+      "title": "P1911",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--SOqVjdt2--/c_fill,h_240,q_auto,w_240/3LqQv12eWdytE6YtHn96",
+      "desc": "Your grandpa loved it.",
+      "hitDmg": 35,
+      "IBS": 250,
+      "BHIP": "6,000",
+      "zeroRange": "25 - 25",
+      "ammoPerMag": 7,
+      "TBS": "0.110s",
+      "firingModes": "SINGLE",
+            "ammo": [{
+        "aTitle": ".45mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--mmkWcWdb--/c_fill,h_120,q_auto,w_120/nvlHeenDWqpECBPKPzg7",
+        "desc": "Ammo for P1911, Tommy Gun, Vector"
+      }
+        ],
+      "reloadTime": "2.100s"
+    },
+    {
+      "title": "R1895",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--3NVkwKuz--/c_fill,h_240,q_auto,w_240/qo6gkcfpf8RZKVAPxJGv",
+      "desc": "Powerful revolver using 7.62mm ammunition.",
+      "hitDmg": 46,
+      "IBS": 330,
+      "BHIP": "8,000",
+      "zeroRange": "25 - 25",
+      "ammoPerMag": 7,
+      "TBS": "0.400s",
+      "firingModes": "SINGLE",
+      "ammo": [{
+        "aTitle": "7.62mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--MUMTtAWL--/c_fill,h_120,q_auto,w_120/R4qKIpSiyJ7f7hiJC5Mw",
+        "desc": "Ammo for R1895, AKM, Groza, Kar98k, M24, SKS, Mk14"
+      }
+        ],
+      "reloadTime": "6.250s"
+    }
+  ],
+  "Shotguns": [
+    {
+      "title": "S686",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--OR44U-Jh--/c_fill,h_240,q_auto,w_240/arqYOGWSZV0W4YU9wnnZ",
+      "desc": "Double barrel shotgun.",
+      "hitDmg": 25,
+      "IBS": 370,
+      "BHIP": "5,000",
+      "zeroRange": "25 - 25",
+      "ammoPerMag": 2,
+      "TBS": "0.200s",
+      "firingModes": "SINGLE",
+            "ammo": [{
+        "aTitle": "12 Gauge",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--kiXU_oJq--/c_fill,h_120,q_auto,w_120/MwhppWKfABME0lGSMaDP",
+        "desc": "Ammo for S1897, S686, S12K"
+      }
+        ],
+      "reloadTime": "3.000s"
+    },
+    {
+      "title": "S1897",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--2PiImj55--/c_fill,h_240,q_auto,w_240/YHAqL8dCgrgmESa3MRGz",
+      "desc": "Modest shotgun.",
+      "hitDmg": 25,
+      "IBS": 360,
+      "BHIP": "5,000",
+      "zeroRange": "25 - 25",
+      "ammoPerMag": 5,
+      "TBS": "0.750s",
+      "firingModes": "SINGLE",
+      "ammo": [{
+        "aTitle": "12 Gauge",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--kiXU_oJq--/c_fill,h_120,q_auto,w_120/MwhppWKfABME0lGSMaDP",
+        "desc": "Ammo for S1897, S686, S12K"
+      }
+        ],
+      "reloadTime": "4.210s"
+    },
+    {
+      "title": "S12K",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s---vqPrSQI--/c_fill,h_240,q_auto,w_240/d3FnYDM1FZgpuacbgRTJ",
+      "desc": "Kinda foul in this world.",
+      "hitDmg": 22,
+      "IBS": 350,
+      "BHIP": "5,000",
+      "zeroRange": "25 - 25",
+      "ammoPerMag": 5,
+      "TBS": "0.250s",
+      "firingModes": "SINGLE",
+            "ammo": [{
+        "aTitle": "12 Gauge",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--kiXU_oJq--/c_fill,h_120,q_auto,w_120/MwhppWKfABME0lGSMaDP",
+        "desc": "Ammo for S1897, S686, S12K"
+      }
+        ],
+      "reloadTime": "3.000s"
+    }
+  ],
+  "SubMachineGuns": [
+    {
+      "title": "Micro UZI",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--qlfv3I_i--/c_fill,h_240,q_auto,w_240/UylNqJCcDZshaCFYVj9a",
+      "desc": "Spray your ammo but beware to not shoot yourself in the foot.",
+      "hitDmg": 23,
+      "IBS": 350,
+      "BHIP": "5,000",
+      "zeroRange": "100 - 200",
+      "ammoPerMag": 25,
+      "TBS": "0.048s",
+      "firingModes": "SINGLE, AUTO",
+      "ammo": [{
+        "aTitle": "9mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--h6O9RE-E--/c_fill,h_120,q_auto,w_120/2H03x7KLixenRH06QpW2",
+        "desc": "Ammo for P92, Micro Uzi, UMP9, VSS"
+      }
+        ],
+      "reloadTime": "3.100s"
+    },
+    {
+      "title": "UMP9",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--_JkXlJYh--/c_fill,h_240,q_auto,w_240/QT5RBbUPLRpI17eZIOhO",
+      "desc": "Modern submachine gun using 9mm ammunition.",
+      "hitDmg": 35,
+      "IBS": 400,
+      "BHIP": "7,000",
+      "zeroRange": "100 - 300",
+      "ammoPerMag": 30,
+      "TBS": "0.092s",
+      "firingModes": "SINGLE, BURST, AUTO",
+      "ammo": [{
+        "aTitle": "9mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--h6O9RE-E--/c_fill,h_120,q_auto,w_120/2H03x7KLixenRH06QpW2",
+        "desc": "Ammo for P92, Micro Uzi, UMP9, VSS"
+      }
+        ],
+      "reloadTime": "3.100s"
+    },
+    {
+      "title": "KRISS Vector",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--nIC2V4kp--/c_fill,h_240,q_auto,w_240/m01yZeFRmKknUV0v95P0",
+      "desc": "Modern SMG using delayed blowback system and chambered for .45 ACP ammunition.",
+      "hitDmg": 31,
+      "IBS": 300,
+      "BHIP": "7,000",
+      "zeroRange": "50 - 50",
+      "ammoPerMag": 13,
+      "TBS": "0.055s",
+      "firingModes": "SINGLE, BURST, AUTO",
+      "ammo": [{
+        "aTitle": ".45mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--mmkWcWdb--/c_fill,h_120,q_auto,w_120/nvlHeenDWqpECBPKPzg7",
+        "desc": "Ammo for P1911, Tommy Gun, Vector"
+      }
+        ],
+      "reloadTime": "2.200s"
+    },
+    {
+      "title": "Tommy Gun",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--WH7a7D8J--/c_fill,h_240,q_auto,w_240/K9VVTcAt5iLpxyqs6DdC",
+      "desc": "Infinite ammo with trench coat on.",
+      "hitDmg": 38,
+      "IBS": 280,
+      "BHIP": "7,000",
+      "zeroRange": "100 - 200",
+      "ammoPerMag": 100,
+      "TBS": "0.086s",
+      "firingModes": "SINGLE, AUTO",
+            "ammo": [{
+        "aTitle": ".45mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--mmkWcWdb--/c_fill,h_120,q_auto,w_120/nvlHeenDWqpECBPKPzg7",
+        "desc": "Ammo for P1911, Tommy Gun, Vector"
+      }
+        ],
+      "reloadTime": "3.450s"
+    }
+  ],
+  "Miscellaneous":[{
+      "title": "M249",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--ZkON98NT--/c_fill,h_240,q_auto,w_240/Tlgds7Bh9QtBnabje9XN",
+      "desc": "Lighter than it looks.",
+      "hitDmg": 44,
+      "IBS": 915,
+      "BHIP": "10,000",
+      "zeroRange": "100 - 500",
+      "ammoPerMag": 100,
+      "TBS": "0.075s",
+      "firingModes": "AUTO",
+      "ammo": [{
+        "aTitle": "5.56mm",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--b3qI1y7r--/c_fill,h_120,q_auto,w_120/o9HDXDFZEw6H8oqzUDcP",
+        "desc": "Ammo for M16A4, M416, SCAR-L, M249, MINI 14"
+      }
+    ],
+    "reloadTime": "8.200s"
+  },
+  {
+      "title": "Crossbow",
+      "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--ksp6ZOqA--/c_fill,h_240,q_auto,w_240/TKQuHNIPRapYt3dY5Ojh",
+      "desc": "Hard to use, good to assasinate.",
+      "hitDmg": 105,
+      "IBS": 160,
+      "BHIP": "8,000",
+      "zeroRange": "25 - 25",
+      "ammoPerMag": 1,
+      "TBS": "0.075s",
+      "firingModes": "SINGLE",
+      "ammo": [{
+        "aTitle": "Bolt",
+        "aSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s---uMJThn2--/c_fill,h_120,q_auto,w_120/kramIyhXRYyADBiZ8H9K",
+        "desc": "Ammo for Crossbow"
+      }
+    ],
+    "reloadTime": "5.450s"
+  }
+  ],
+  "Throwables":[
+ {
+   "title": "Frag Grenade",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--j3Fx6T93--/c_fill,h_240,q_auto,w_240/TzNxAr9d0S4IalGjIO5M",
+   "desc": "Fire in the hole.",
+   "pickupDelay": "150 ms",
+   "readyDelay": "1,000 ms"
+ },
+ {
+   "title": "Smoke Grenade",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--xMZB3Js5--/c_fill,h_240,q_auto,w_240/5urRiAFaHQJmVpy2fs42",
+   "desc": "Smokin' useful.",
+   "pickupDelay": "150 ms",
+   "readyDelay": "1,000 ms"
+ },
+ {
+   "title": "Stun Grenade",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--kHfDwmd1--/c_fill,h_240,q_auto,w_240/eCUwiVCj734rWwvP3ycx",
+   "desc": "Disorient a player for 10 seconds",
+   "pickupDelay": "150 ms",
+   "readyDelay": "1,000 ms"
+ },
+ {
+   "title": "Molotov Cocktail",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--DRycB-o1--/c_fill,h_240,q_auto,w_240/urYL1xMgrQfyluM4rajo",
+   "desc": "Highly explosive. Do not drink",
+   "pickupDelay": "150 ms",
+   "readyDelay": "1,530 ms"
+ }
+],
+  "Melee":[
+ {
+   "title": "Pan",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--HxOvWZS_--/c_fill,h_240,q_auto,w_240/uT93wWTowFiovTIGyp2F",
+   "desc": "Not for cooking.",
+   "dmg": 80,
+   "impact": "40,000",
+   "hitRangeLeeway": "3,000",
+   "pickupDelay": "150 ms",
+   "readyDelay": "500 ms"
+ },
+ {
+   "title": "Crowbar",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--NmhFx4ZJ--/c_fill,h_240,q_auto,w_240/twr2X0xzuRBuBXr3NnOS",
+   "desc": "A faithful shooter for every situation.",
+   "dmg": 60,
+   "impact": "6,000",
+   "hitRangeLeeway": "3,000",
+   "pickupDelay": "150 ms",
+   "readyDelay": "500 ms"
+ },
+ {
+   "title": "Machete",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--XbZZrt_P--/c_fill,h_240,q_auto,w_240/GvjGtCrMfIZIWlyODGjl",
+   "desc": "Typical weapon for slaughter.",
+   "dmg": 60,
+   "impact": "6,000",
+   "hitRangeLeeway": "3,000",
+   "pickupDelay": "150 ms",
+   "readyDelay": "500 ms"
+ },
+ {
+   "title": "Sickle",
+   "imgSrc": "https://res.cloudinary.com/jmswrnr/image/upload/s--lTgxAGnV--/c_fill,h_240,q_auto,w_240/1Hxb2D4nJ8GX9NADTEEA",
+   "desc": "Good for shaving.",
+   "dmg": 60,
+   "impact": "6,000",
+   "hitRangeLeeway": "3,000",
+   "pickupDelay": "150 ms",
+   "readyDelay": "500 ms"
+ }
+]}
+}
